@@ -18,6 +18,30 @@ const HomePage = () => {
       }}
     >
       <Navb />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          height: "100vh",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <h1
+          style={{
+            color: "white",
+          }}
+        >
+          Tech, Innovation
+        </h1>
+        <h1
+          style={{
+            color: "white",
+          }}
+        >
+          Conference 2035
+        </h1>
+      </div>
       <br />
       <div className="socialIconsBar">
         <ul>
