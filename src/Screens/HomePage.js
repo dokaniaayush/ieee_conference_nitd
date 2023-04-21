@@ -13,10 +13,12 @@ const HomePage = () => {
         backgroundImage: "url(/img/sample.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundAttachment: "fixed",
         height: "100vh",
       }}
     >
       <Navb />
+      <br />
       <div className="socialIconsBar">
         <ul>
           <li className="socialIcons">
