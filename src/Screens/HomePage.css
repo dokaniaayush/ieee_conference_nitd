@@ -17,3 +17,8 @@
     background: #bae8e8;
     cursor: pointer;
 }
+.socialIconsBar{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}

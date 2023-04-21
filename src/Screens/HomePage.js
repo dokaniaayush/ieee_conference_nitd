@@ -14,6 +14,7 @@ const HomePage = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "700px",
+        flex: 1,
       }}
     >
       <Navb />
