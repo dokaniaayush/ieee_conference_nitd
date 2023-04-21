@@ -1,13 +1,13 @@
 import "./App.css";
-import HomePage from "./Screens/HomePage";
-import Sponsor from "./Screens/Sponsor";
-import Location from "./Screens/Location";
+import HomePage from "./screens/HomePage";
+import Sponsor from "./screens/Sponsor";
+import Location from "./screens/Location";
 
 function App() {
   return (
     <div className="App">
-      {/* <Sponsor/> */}
-      <Location />
+      {/* <Sponsor /> */}
+      <HomePage />
     </div>
   );
 }
