@@ -13,8 +13,7 @@ const HomePage = () => {
         backgroundImage: "url(/img/sample.jpg)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        height: "700px",
-        flex: 1,
+        height: "100vh",
       }}
     >
       <Navb />
