@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import Container from "react-bootstrap/Container";
@@ -17,7 +18,16 @@ function Navb() {
     }
   };
   window.addEventListener("scroll", changeBackground);
-
+  const home = useRef(null);
+  const speakers = useRef(null);
+  const sponsors = useRef(null);
+  const location = useRef(null);
+  const scrollToSection = (eleRef) => {
+    window.scrollTo({
+      top: eleRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <Navbar
       className={navbar ? "active" : "navb"}
@@ -31,8 +41,24 @@ function Navb() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link
+              href="#speakers"
+              onClick={() => scrollToSection(speakers)}
+            >
+              Speakers
+            </Nav.Link>
+            <Nav.Link
+              href="#sponsors"
+              onClick={() => scrollToSection(sponsors)}
+            >
+              Sponsors
+            </Nav.Link>
+            <Nav.Link
+              href="#location"
+              onClick={() => scrollToSection(location)}
+            >
+              Location
+            </Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
