@@ -36,21 +36,21 @@ function Navb() {
           <Nav className="me-auto">
             <Nav.Link>
             <Link
-              to="speakers" spy={true} smooth={true} offset={-100} duration={500}
+              to="speakers" spy={true} smooth={true} offset={-55} duration={500}
             >
               Speakers
             </Link>
             </Nav.Link>
             <Nav.Link>
               <Link
-              to="sponsors" spy={true} smooth={true} offset={-100} duration={500}
+              to="sponsors" spy={true} smooth={true} offset={-55} duration={500}
             >
               Sponsors
             </Link>
             </Nav.Link>
             <Nav.Link>
             <Link
-              to="location" spy={true} smooth={true} offset={-100} duration={500}
+              to="location" spy={true} smooth={true} offset={-55} duration={500}
             >
               Location
             </Link>
