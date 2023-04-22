@@ -1,11 +1,31 @@
+import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import "./Navb.css";
 
 function Navb() {
+  const [navbar, setNavbar] = useState(false);
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", changeBackground);
+
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar
+      className={navbar ? "active" : "navb"}
+      sticky="top"
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+    >
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

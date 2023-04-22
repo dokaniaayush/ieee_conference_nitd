@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import Navb from "../components/Navb";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -8,19 +9,24 @@ import "./HomePage.css";
 
 const HomePage = () => {
   return (
-    <div>
-      <Navb />
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        height: "100vh",
+        backgroundImage: "url(/img/sample.jpg)",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div
         style={{
           display: "flex",
           flexDirection: "column",
-          height: "100vh",
           alignItems: "center",
           justifyContent: "center",
-          backgroundImage: "url(/img/sample.jpg)",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
+          height: "100%",
         }}
       >
         <h1

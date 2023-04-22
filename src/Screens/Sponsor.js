@@ -5,8 +5,8 @@ const Sponsor = () => {
     <div id="sponsor_container">
       <div
         id="sponsor_text"
-        className="fs-3 fw-bold text-primary"
-        style={{ marginBottom: "50px" }}
+        className="fs-3 fw-bold"
+        style={{ marginBottom: "50px", color: "#13699b" }}
       >
         Sponsors
       </div>
