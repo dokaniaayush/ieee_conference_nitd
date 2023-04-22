@@ -96,6 +96,20 @@ function Navb() {
                     Location
                   </Link>
                 </Nav.Link>
+                <Nav.Link>
+                  <Link
+                    to="footer"
+                    spy={true}
+                    smooth={true}
+                    offset={-55}
+                    duration={500}
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
+                    Footer
+                  </Link>
+                </Nav.Link>
                 <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
