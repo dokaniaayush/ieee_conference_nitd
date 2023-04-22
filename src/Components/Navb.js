@@ -30,30 +30,18 @@ function Navb() {
       variant="dark"
     >
       <Container>
-        <div
+        {/* <div
           style={{
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
             width: "100vw",
           }}
-        >
-          <Navbar.Brand href="#home">IEEE</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav
-              style={{
-                width: "100%",
-              }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  width: "100%",
-                  justifyContent: "flex-end",
-                }}
-              >
+        > */}
+        <Navbar.Brand href="#home">IEEE</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="collapsingIcons">
+          <Nav>
                 <Nav.Link>
                   <Link
                     to="speakers"
@@ -123,7 +111,7 @@ function Navb() {
                     Separated link
                   </NavDropdown.Item>
                 </NavDropdown>
-              </div>
+              
             </Nav>
             {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
@@ -131,8 +119,8 @@ function Navb() {
               Dank memes
             </Nav.Link>
           </Nav> */}
-          </Navbar.Collapse>
-        </div>
+        </Navbar.Collapse>
+        {/* </div> */}
       </Container>
     </Navbar>
   );

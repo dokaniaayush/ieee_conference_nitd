@@ -5,3 +5,10 @@
 .navb{
    background-color: #080a0a;
 }
+@media screen and (min-width: 992px) {
+   .collapsingIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   }
+}
