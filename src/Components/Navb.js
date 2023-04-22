@@ -30,95 +30,93 @@ function Navb() {
       variant="dark"
     >
       <Container>
-        <div
+        {/* <div
           style={{
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
             width: "100vw",
           }}
-        >
-          <Navbar.Brand href="#home">IEEE</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav
-              style={{
-                width: "100%",
-              }}
-            >
-              <div
+        > */}
+        <Navbar.Brand href="#home">IEEE</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="collapsingIcons">
+          <Nav
+          // style={{
+          //   width: "100%",
+          // }}
+          >
+            {/* <div
                 style={{
                   display: "flex",
                   flexDirection: "row",
                   width: "100%",
                   justifyContent: "flex-end",
                 }}
+              > */}
+            <Nav.Link>
+              <Link
+                to="speakers"
+                spy={true}
+                smooth={true}
+                offset={-55}
+                duration={500}
+                style={{
+                  textDecoration: "none",
+                }}
               >
-                <Nav.Link>
-                  <Link
-                    to="speakers"
-                    spy={true}
-                    smooth={true}
-                    offset={-55}
-                    duration={500}
-                    style={{
-                      textDecoration: "none",
-                    }}
-                  >
-                    Speakers
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link
-                    to="sponsors"
-                    spy={true}
-                    smooth={true}
-                    offset={-55}
-                    duration={500}
-                    style={{
-                      textDecoration: "none",
-                    }}
-                  >
-                    Sponsors
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link
-                    to="location"
-                    spy={true}
-                    smooth={true}
-                    offset={-55}
-                    duration={500}
-                    style={{
-                      textDecoration: "none",
-                    }}
-                  >
-                    Location
-                  </Link>
-                </Nav.Link>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
-                </NavDropdown>
-              </div>
-            </Nav>
-            {/* <Nav>
+                Speakers
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                to="sponsors"
+                spy={true}
+                smooth={true}
+                offset={-55}
+                duration={500}
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Sponsors
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                to="location"
+                spy={true}
+                smooth={true}
+                offset={-55}
+                duration={500}
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Location
+              </Link>
+            </Nav.Link>
+            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            {/* </div> */}
+          </Nav>
+          {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Dank memes
             </Nav.Link>
           </Nav> */}
-          </Navbar.Collapse>
-        </div>
+        </Navbar.Collapse>
+        {/* </div> */}
       </Container>
     </Navbar>
   );
