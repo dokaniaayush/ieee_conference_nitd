@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsor = () => {
   return (
-    <div id="sponsor_container">
+    <div id="sponsors">
       <div
         id="sponsor_text"
         className="fs-3 fw-bold"

@@ -3,7 +3,7 @@ import React from "react";
 const Location = () => {
   return (
     <div
-      id="location_center"
+      id="location"
       // style={{ height: "100%", width: "100%", overflow: "hidden" }}
     >
       <iframe

@@ -10,6 +10,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div
+    id="home"
       style={{
         display: "flex",
         flexDirection: "column",

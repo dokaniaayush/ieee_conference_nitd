@@ -1,4 +1,4 @@
-#sponsor_container{
+#sponsors{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@
     transform: translateX(-50%) translateY(-50%); */
 }
 
-#location_center{
+#location{
   display: flex;
   flex-direction: column;
   align-items: center;
