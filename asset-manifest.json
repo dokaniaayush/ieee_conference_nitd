@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ieee_conference_nitd/static/css/main.0687fa97.css",
+    "main.js": "/ieee_conference_nitd/static/js/main.720369ef.js",
+    "index.html": "/ieee_conference_nitd/index.html",
+    "main.0687fa97.css.map": "/ieee_conference_nitd/static/css/main.0687fa97.css.map",
+    "main.720369ef.js.map": "/ieee_conference_nitd/static/js/main.720369ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0687fa97.css",
+    "static/js/main.720369ef.js"
+  ]
+}
