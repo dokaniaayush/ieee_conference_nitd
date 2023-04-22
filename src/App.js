@@ -1,13 +1,16 @@
 import "./App.css";
-import HomePage from "./screens/HomePage";
-import Sponsor from "./screens/Sponsor";
-import Location from "./screens/Location";
+import HomePage from "./Screens/HomePage.js";
+import Sponsor from "./Screens/Sponsor";
+import Location from "./Screens/Location";
+import Speakers from "./Screens/Speakers";
 
 function App() {
   return (
     <div className="App">
+      {/* <HomePage /> */}
       {/* <Sponsor /> */}
-      <HomePage />
+      {/* <Location/> */}
+      <Speakers/>
     </div>
   );
 }

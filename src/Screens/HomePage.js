@@ -1,5 +1,5 @@
 import React from "react";
-import Navb from "../components/Navb";
+import Navb from "../Components/Navb";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
