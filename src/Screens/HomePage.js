@@ -10,7 +10,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div
-    id="home"
+      id="home"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -30,20 +30,40 @@ const HomePage = () => {
           height: "100%",
         }}
       >
-        <h1
-          style={{
-            color: "white",
-          }}
-        >
-          Tech, Innovation
-        </h1>
-        <h1
-          style={{
-            color: "white",
-          }}
-        >
-          Conference 2035
-        </h1>
+        <div>
+          <div className="middleBox">
+            <img
+              src={require("./../assets/img/ieee_logo.png")}
+              style={{
+                height: "90px",
+              }}
+              alt="logo"
+            />
+            <h2>National Institute of Technology Delhi</h2>
+            <img
+              src={require("./../assets/img/nitd_logo.jpg")}
+              style={{
+                height: "90px",
+              }}
+              alt="logo"
+            />
+          </div>
+          <h1
+            style={{
+              color: "black",
+            }}
+          >
+            Tech, Innovation
+          </h1>
+          <h1
+            style={{
+              color: "black",
+            }}
+          >
+            Conference 2035
+          </h1>
+        </div>
+
         <div className="socialIconsBar">
           <ul>
             <li className="socialIcons">

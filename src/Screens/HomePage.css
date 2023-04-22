@@ -1,6 +1,7 @@
 .socialIcons{
     list-style: none;
     margin: 0 5px;
+    margin-bottom: 2px;
     height: 50px;
     width: 50px;
     color: #bae8e8;
@@ -13,12 +14,31 @@
     transition: all ease 0.3s;
 }
 .socialIcons:hover{
-    color: #2c698d;
+    color: black;
     background: #bae8e8;
     cursor: pointer;
 }
 .socialIconsBar{
     position: absolute;
-    top: 100px;
+    top: 90px;
     right: 20px;
 }
+.middleBox{
+    background-color: white;
+    width: 1000px;
+    height: 190px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: "white",
+
+}   
+@media screen and (max-width: 1000px) {
+   .middleBox{
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+   }
+  }
