@@ -15,7 +15,7 @@ const HomePage = () => {
         display: "flex",
         flexDirection: "column",
         height: "100vh",
-        backgroundImage: "url(/img/sample.jpg)",
+        backgroundImage: `url(${require("./../assets/img/sample.jpg")})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
