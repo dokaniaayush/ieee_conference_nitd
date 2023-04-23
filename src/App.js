@@ -6,15 +6,14 @@ import Navb from "./components/Navb";
 import Speakers from "./screens/Speakers";
 import Footer from "./screens/Footer";
 function App() {
-
   return (
     <div className="App">
       <Navb />
-      <HomePage/>
-      <Speakers/>
-      <Sponsor/>
-      <Location/>
-      <Footer/>
+      <HomePage />
+      <Speakers />
+      <Sponsor />
+      <Location />
+      <Footer />
     </div>
   );
 }

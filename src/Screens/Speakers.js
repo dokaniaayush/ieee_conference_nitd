@@ -5,9 +5,9 @@ import SpeakerData from "../components/SpeakerData";
 const Speakers = () => {
   return (
     <div
-     id="speakers"
+      id="speakers"
       style={{
-        backgroundColor: "#13699b",
+        backgroundColor: "#465e87",
         width: "100%",
         height: "100%",
         display: "flex",

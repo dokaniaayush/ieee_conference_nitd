@@ -7,20 +7,24 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import "./HomePage.css";
 
+// import Navb from "../components/Navb";
 const HomePage = () => {
   return (
     <div
       id="home"
       style={{
+        // position: "absolute",
+        // top: "-20px",
         display: "flex",
         flexDirection: "column",
         height: "100vh",
-        backgroundImage: `url(${require("./../assets/img/sample.jpg")})`,
+        backgroundImage: `url(${require("./../assets/img/sample.png")})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
       }}
     >
+      {/* <Navb /> */}
       <div
         style={{
           display: "flex",
@@ -51,16 +55,24 @@ const HomePage = () => {
           <h1
             style={{
               color: "black",
+              marginTop: "20px",
             }}
           >
-            Tech, Innovation
+            First International Conference on
           </h1>
           <h1
             style={{
-              color: "black",
+              color: "white",
             }}
           >
-            Conference 2035
+            Microelectronics, Communication and Signal Processing
+          </h1>
+          <h1
+            style={{
+              color: "white",
+            }}
+          >
+            (ICMCSP 2024)
           </h1>
         </div>
 

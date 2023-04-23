@@ -1,6 +1,7 @@
 .active{
     /* background-color: #13699b; */
     background-color: black;
+    transition: 2s;
 }
 .navb{
    background-color: #080a0a;
