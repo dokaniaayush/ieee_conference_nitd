@@ -2,9 +2,9 @@ import React from "react";
 
 const SpeakerImg = (props) => {
     return(
-        <>
-            <img src={props.imageLink} style={{width:"40%", height:"400px", marginRight:"30px"}}></img>
-        </>
+        <div>
+            <img src = {props.imageLink} style={{width:"100%", height:"350px"}}></img>
+        </div>
     );
 };
 
