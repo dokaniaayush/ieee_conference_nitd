@@ -43,7 +43,13 @@ const HomePage = () => {
               }}
               alt="logo"
             />
-            <h2>National Institute of Technology Delhi</h2>
+            <h2
+              style={{
+                fontFamily: "Noto Sans",
+              }}
+            >
+              National Institute of Technology Delhi
+            </h2>
             <img
               src={require("./../assets/img/nitd_logo.jpg")}
               style={{
