@@ -38,10 +38,22 @@ function Navb() {
             width: "100vw",
           }}
         > */}
-        <Navbar.Brand href="#home">IEEE</Navbar.Brand>
+        <Navbar.Brand
+          href="#home"
+          style={{
+            fontFamily: "Caveat",
+            fontSize: "20px",
+          }}
+        >
+          IEEE
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="collapsingIcons">
-          <Nav>
+          <Nav
+            style={{
+              textAlign: "center",
+            }}
+          >
             <Nav.Link>
               <Link
                 to="speakers"
@@ -51,6 +63,7 @@ function Navb() {
                 duration={500}
                 style={{
                   textDecoration: "none",
+                  fontFamily: "Libre Franklin",
                 }}
               >
                 Speakers
@@ -65,6 +78,7 @@ function Navb() {
                 duration={500}
                 style={{
                   textDecoration: "none",
+                  fontFamily: "Libre Franklin",
                 }}
               >
                 Sponsors
@@ -79,6 +93,7 @@ function Navb() {
                 duration={500}
                 style={{
                   textDecoration: "none",
+                  fontFamily: "Libre Franklin",
                 }}
               >
                 Location
@@ -93,19 +108,55 @@ function Navb() {
                 duration={500}
                 style={{
                   textDecoration: "none",
+                  fontFamily: "Libre Franklin",
                 }}
               >
                 Footer
               </Link>
             </Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+            <NavDropdown
+              title="Dropdown"
+              style={{
+                fontFamily: "Libre Franklin",
+                textAlign: "center",
+              }}
+              id="collasible-nav-dropdown"
+            >
+              <NavDropdown.Item
+                href="#action/3.1"
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
+                Action
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                href="#action/3.2"
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
                 Another action
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item
+                href="#action/3.3"
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
+                Something
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item
+                href="#action/3.4"
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
