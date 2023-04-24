@@ -22,7 +22,7 @@ const Footer = () => {
         <p className='fs-1 text-white'>Conference 2035</p>
       </div> */}
       {/* <br /> */}
-      {/* <ColoredLine color="red"/> */}
+      <ColoredLine color="red"/>
       <div id="foo-middle" style={{ display: "flex", flexDirection: "row" }}>
         <div className="lg-3 md-2 sm-4 m-5">
           <p className="fs-2 text-white">What</p>
@@ -74,7 +74,7 @@ const Footer = () => {
           margin: 0,
         }}
       >
-        <p className="mb-2">
+        <p>
           2023 Copyright © National Institute Of Technology, Delhi. All Rights
           Reserved
         </p>
