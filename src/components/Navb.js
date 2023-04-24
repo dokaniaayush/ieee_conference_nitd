@@ -99,7 +99,7 @@ function Navb() {
                 Location
               </Link>
             </Nav.Link>
-            <Nav.Link>
+            {/* <Nav.Link>
               <Link
                 to="footer"
                 spy={true}
@@ -113,7 +113,7 @@ function Navb() {
               >
                 Footer
               </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <NavDropdown
               title="Dropdown"
               style={{
