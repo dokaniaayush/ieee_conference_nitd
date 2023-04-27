@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import Navb from "../components/Navb";
 import { AiFillFacebook } from "react-icons/ai";
@@ -84,7 +85,7 @@ const HomePage = () => {
           </h3>
           <h3
             style={{
-              color: "black",
+              color: "white",
             }}
           >
             First International Conference on
