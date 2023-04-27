@@ -99,21 +99,7 @@ function Navb() {
                 Location
               </Link>
             </Nav.Link>
-            {/* <Nav.Link>
-              <Link
-                to="footer"
-                spy={true}
-                smooth={true}
-                offset={-55}
-                duration={500}
-                style={{
-                  textDecoration: "none",
-                  fontFamily: "Libre Franklin",
-                }}
-              >
-                Footer
-              </Link>
-            </Nav.Link> */}
+            <Nav.Link href="/committee">Committee</Nav.Link>
             <NavDropdown
               title="Dropdown"
               style={{

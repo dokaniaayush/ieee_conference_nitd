@@ -7,42 +7,17 @@ import Navb from "./components/Navb";
 import Speakers from "./screens/Speakers";
 import Footer from "./screens/Footer";
 import PropagateLoader from "react-spinners/PropagateLoader";
+import Committee from "./screens/Committee";
 function App() {
-  const load = () => {
-    return (
-      <div
-        style={{
-          flex: 1,
-          display: "flex",
-
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <PropagateLoader
-          color="#1a1a1f"
-          loading
-          size={28}
-          speedMultiplier={1}
-          cssOverride={{
-            marginTop: 250,
-          }}
-        />
-      </div>
-    );
-  };
-  // useEffect(() => {
-  setTimeout(load, 5000000);
-  // });
   return (
     <div className="App">
-      <Navb />
+      <Committee />
+      {/* <Navb />
       <HomePage />
       <Sponsor />
       <Speakers />
       <Location />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
