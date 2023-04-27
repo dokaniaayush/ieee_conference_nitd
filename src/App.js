@@ -6,7 +6,7 @@ import Location from "./screens/Location";
 import Navb from "./components/Navb";
 import Speakers from "./screens/Speakers";
 import Footer from "./screens/Footer";
-import PropagateLoader from "react-spinners/PropagateLoader";
+// import PropagateLoader from "react-spinners/PropagateLoader";
 import Committee from "./screens/Committee";
 function App() {
   return (
