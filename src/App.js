@@ -5,6 +5,7 @@ import Location from "./screens/Location";
 import Navb from "./components/Navb";
 import Speakers from "./screens/Speakers";
 import Footer from "./screens/Footer";
+import Committee from "./screens/Committee";
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,7 @@ function App() {
       <Speakers />
       <Location />
       <Footer />
-    </div>
+    </div>    
   );
 }
 
