@@ -43,43 +43,66 @@ const HomePage = () => {
               }}
               alt="logo"
             />
-            <h2
-              style={{
-                fontFamily: "Noto Sans",
-              }}
-            >
-              National Institute of Technology Delhi
-            </h2>
+            <div>
+              <h2
+                style={{
+                  fontFamily: "Noto Sans",
+                }}
+              >
+                Electronics and Communication Department
+              </h2>
+              <h2
+                style={{
+                  fontFamily: "Noto Sans",
+                }}
+              >
+                Of
+              </h2>
+              <h2
+                style={{
+                  fontFamily: "Noto Sans",
+                }}
+              >
+                National Institute of Technology Delhi
+              </h2>
+            </div>
             <img
               src={require("./../assets/img/nitd_logo.jpg")}
               style={{
-                height: "90px",
+                height: "95px",
               }}
               alt="logo"
             />
           </div>
-          <h1
+          <h3
             style={{
               color: "black",
               marginTop: "20px",
             }}
           >
+            Presents
+          </h3>
+          <h3
+            style={{
+              color: "black",
+            }}
+          >
             First International Conference on
-          </h1>
-          <h1
+          </h3>
+          <h3
             style={{
               color: "white",
             }}
           >
             Microelectronics, Communication and Signal Processing
-          </h1>
-          <h1
+          </h3>
+          <h3
             style={{
               color: "white",
             }}
           >
             (ICMCSP 2024)
-          </h1>
+          </h3>
         </div>
 
         <div className="socialIconsBar">

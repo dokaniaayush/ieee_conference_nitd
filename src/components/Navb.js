@@ -161,6 +161,28 @@ function Navb() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Nav.Link>
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-55}
+              duration={500}
+              style={{
+                textDecoration: "none",
+                fontFamily: "Libre Franklin",
+                color: "white",
+                padding: "8px",
+                marginLeft: "20px",
+                borderColor: "blue",
+                borderWidth: "2px",
+                borderRadius: "10px",
+                borderStyle: "solid",
+                backgroundColor: "blue",
+              }}
+            >
+              Register
+            </Link>
+          </Nav.Link>
           {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
