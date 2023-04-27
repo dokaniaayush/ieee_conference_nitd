@@ -8,16 +8,18 @@ import Speakers from "./screens/Speakers";
 import Footer from "./screens/Footer";
 // import PropagateLoader from "react-spinners/PropagateLoader";
 import Committee from "./screens/Committee";
+import Contact from "./screens/Contact";
 function App() {
   return (
     <div className="App">
-      <Committee />
-      {/* <Navb />
-      <HomePage />
+      {/* <Committee /> */}
+      <Navb />
+      <Contact/>
+      {/* <HomePage />
       <Sponsor />
       <Speakers />
-      <Location />
-      <Footer /> */}
+      <Location /> */}
+      <Footer />
     </div>
   );
 }
