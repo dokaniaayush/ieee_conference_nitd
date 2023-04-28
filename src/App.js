@@ -2,8 +2,8 @@ import "./App.css";
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./screens/Home";
-
 import Committee from "./screens/Committee";
+
 function App() {
   return (
     <div className="App">

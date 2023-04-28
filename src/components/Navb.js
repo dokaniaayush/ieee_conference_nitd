@@ -100,6 +100,21 @@ function Navb() {
               </Link>
             </Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>
+            <Nav.Link>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-55}
+                duration={500}
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
+                Contact
+              </Link>
+            </Nav.Link>
             <NavDropdown
               title="Dropdown"
               style={{

@@ -5,6 +5,7 @@ import Location from "./Location";
 import Navb from "../components/Navb";
 import Speakers from "./Speakers";
 import Footer from "./Footer";
+import Contact from "./Contact";
 import "./../App.css";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Speakers />
       <Location />
       <Footer />
+      <Contact />
     </div>
   );
 };
