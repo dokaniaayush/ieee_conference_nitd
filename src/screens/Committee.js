@@ -4,9 +4,12 @@ import TechnicalProgramCommittee from "../components/TechnicalProgramCommittee";
 import CommitteeNavbar from "../components/CommitteeNavbar";
 import InternationalAdvisoryComittee from "../components/InternationalAdvisoryComittee";
 import NationalAdvisoryCommittee from "../components/NationalAdvisoryCommittee";
+import Navb from "../components/Navb";
 
 const Committee = () => {
   return (
+    <>
+    <Navb />
     <div
       id="committee"
       className="container"
@@ -33,6 +36,7 @@ const Committee = () => {
       <NationalAdvisoryCommittee/>
       <br/>
     </div>
+    </>
   );
 };
 
