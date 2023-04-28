@@ -16,8 +16,8 @@ const Home = () => {
       <Sponsor />
       <Speakers />
       <Location />
-      <Footer />
       <Contact />
+      <Footer />
     </div>
   );
 };
