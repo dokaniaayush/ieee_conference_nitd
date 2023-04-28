@@ -1,9 +1,9 @@
 import React from 'react'
 
-const MainCommittee = () => {
+const NationalAdvisoryCommittee = () => {
   return (
     <div
-        id='main_committee'
+        id='national_advisory_committee'
         classname="card"
         style={{
           display: "flex",
@@ -194,4 +194,4 @@ const MainCommittee = () => {
   )
 }
 
-export default MainCommittee
+export default NationalAdvisoryCommittee

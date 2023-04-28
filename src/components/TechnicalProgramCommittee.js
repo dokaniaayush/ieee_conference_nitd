@@ -3,6 +3,7 @@ import React from "react";
 const TechnicalProgramCommittee = () => {
   return (
     <div
+      id="technical_program_committee"
       classname="card"
       style={{
         display: "flex",

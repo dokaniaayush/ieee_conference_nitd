@@ -12,13 +12,13 @@ import Contact from "./screens/Contact";
 function App() {
   return (
     <div className="App">
-      {/* <Committee /> */}
       <Navb />
-      <Contact/>
+      {/* <Contact/> */}
       {/* <HomePage />
       <Sponsor />
       <Speakers />
       <Location /> */}
+      <Committee />
       <Footer />
     </div>
   );
