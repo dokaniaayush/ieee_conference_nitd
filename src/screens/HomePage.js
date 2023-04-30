@@ -42,10 +42,17 @@ const HomePage = () => {
       >
         <div>
           <div className="middleBox">
-            <img
+            {/* <img
               src={require("./../assets/img/ieee_logo.png")}
               style={{
                 height: "90px",
+              }}
+              alt="logo"
+            /> */}
+            <img
+              src={require("./../assets/img/nitd_logo.jpg")}
+              style={{
+                height: "95px",
               }}
               alt="logo"
             />
@@ -72,13 +79,6 @@ const HomePage = () => {
                 National Institute of Technology Delhi
               </h2>
             </div>
-            <img
-              src={require("./../assets/img/nitd_logo.jpg")}
-              style={{
-                height: "95px",
-              }}
-              alt="logo"
-            />
           </div>
           <h3
             style={{

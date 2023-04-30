@@ -404,7 +404,7 @@ const Footer = () => {
       <div
         className="bottomContainer"
         style={{
-          backgroundColor: "#1c223b",
+          backgroundColor: "#273053",
           color: "white",
           width: "100%",
         }}
@@ -417,7 +417,47 @@ const Footer = () => {
           2023 Copyright © National Institute Of Technology, Delhi. All Rights
           Reserved
         </p>
-        <p>Made by Ayush Dokania, Manan Jain, Priyanshu Aggrawal</p>
+      </div>
+      <div
+        style={{
+          width: "100%",
+          backgroundColor: "#1c223b",
+          color: "white",
+          padding: "8px",
+          // marginBottom: "0px",
+        }}
+      >
+        <p
+          style={{
+            marginBottom: "0px",
+          }}
+        >
+          Made by{" "}
+          <a
+            href="https://www.linkedin.com/in/ayush-dokania-2b27131b9/"
+            style={{
+              textDecorationLine: "none",
+            }}
+          >
+            Ayush Dokania,
+          </a>{" "}
+          <a
+            href="https://www.linkedin.com/in/manan-jain-65aa561b7/"
+            style={{
+              textDecorationLine: "none",
+            }}
+          >
+            Manan Jain,
+          </a>{" "}
+          <a
+            href="https://www.linkedin.com/in/priyanshu-agrawal-5a00651b1/"
+            style={{
+              textDecorationLine: "none",
+            }}
+          >
+            Priyanshu Aggrawal
+          </a>
+        </p>
       </div>
     </div>
   );
