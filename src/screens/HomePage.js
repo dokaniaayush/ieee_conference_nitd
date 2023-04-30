@@ -6,6 +6,12 @@ import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import AboutInstitute from "./AboutInstitute";
+import AboutConference from "./AboutConference";
+import Sponsor from "./Sponsor";
+import Speakers from "./Speakers";
+import Location from "./Location";
+import Footer from "./Footer";
 import "./HomePage.css";
 
 // import Navb from "../components/Navb";
@@ -25,7 +31,6 @@ const HomePage = () => {
         backgroundAttachment: "fixed",
       }}
     >
-      {/* <Navb /> */}
       <div
         style={{
           display: "flex",

@@ -3,10 +3,14 @@
 .active{
     /* background-color: #13699b; */
     background-color: black;
-    transition: 2s;
+    transition: 3s;
+    margin-top: 0;
 }
 .navb{
-   background-color: #080a0a;
+   background: transparent;
+   margin-top: -58px;
+   /* transform: translateY(60px); */
+   /* background-color: #080a0a; */
 }
 @media screen and (min-width: 992px) {
    .collapsingIcons{
