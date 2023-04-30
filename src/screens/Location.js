@@ -16,8 +16,11 @@ const Location = () => {
       <Map
         mapboxAccessToken="pk.eyJ1IjoibWFuYW5qbjI3MTIiLCJhIjoiY2xoM2JscjA2MG1sMzNtbnB3aGI4ejE2NSJ9.cSobjk0Ol6A5spmq2beM-w"
         style={{
-          width: "100%",
-          height: "100%",
+          width: "80%",
+          height: "80%",
+          borderColor: "black",
+          borderWidth: "1px",
+          borderStyle: "solid",
         }}
         initialViewState={{
           latitude: lat,

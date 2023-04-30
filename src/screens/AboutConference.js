@@ -60,27 +60,6 @@ const AboutConference = () => {
           vestibulum lacus, vel rutrum turpis neque vel quam. Lorem ipsum dolor
           sit amet, consectetur adipiscing elit. Mauris id eros turpis. Maecenas
           a interdum mi. Mauris scelerisque risus hendrerit, facilisis odio nec,
-          convallis nisl. Nam eu tincidunt nibh. Vivamus rutrum dolor non
-          elementum suscipit. Integer sed felis lacus. Vivamus tristique tellus
-          et lectus volutpat sagittis. Donec quis cursus ipsum, vitae molestie
-          velit. Mauris sit amet est a risus auctor interdum nec ut neque. Donec
-          sagittis neque sed libero facilisis, sit amet viverra dolor dapibus.
-          Aliquam at tempus nunc, sit amet pellentesque orci. Quisque bibendum
-          tortor libero, viverra bibendum magna condimentum quis. Aliquam ut
-          consequat purus, sit amet sagittis turpis. Morbi gravida placerat
-          libero non fringilla. Nulla fringilla pretium tempus. Donec vel felis
-          sit amet ante gravida elementum ut at eros. Proin nec massa massa.
-          Morbi nec dolor consectetur, pharetra orci at, luctus justo. Ut
-          pulvinar, nulla consequat hendrerit vehicula, est dolor sagittis eros,
-          quis ullamcorper arcu nulla eu ipsum. Nullam euismod arcu iaculis
-          justo blandit, vel auctor dolor sagittis. Proin elementum porttitor
-          est at eleifend. Cras ac bibendum enim. Nullam imperdiet at velit vel
-          tincidunt. Vivamus lacus justo, tempus quis luctus at, suscipit eu
-          dui. Morbi vel felis aliquet, vulputate sapien sit amet, congue ex. In
-          hac habitasse platea dictumst. Morbi elementum consequat lacus, ut
-          blandit mi porttitor condimentum. Etiam luctus eget urna sit amet
-          condimentum. Sed eleifend dapibus nisi ut venenatis. Praesent mauris
-          enim, tempor ac mattis quis, rhoncus pellentesque ex.
         </p>
       </div>
     </div>

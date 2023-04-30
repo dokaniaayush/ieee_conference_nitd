@@ -9,21 +9,25 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navb.css";
 
-function Navb() {
+function Navb(props) {
   const [navbar, setNavbar] = useState(false);
+
   const changeBackground = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 80 && props.show === true) {
       setNavbar(true);
     } else {
       setNavbar(false);
     }
   };
+
   window.addEventListener("scroll", changeBackground);
   const [click, setClick] = useState(false);
   const closeMenu = () => setClick(false);
   return (
     <Navbar
-      className={navbar ? "active" : "navb"}
+      className={
+        navbar ? "active" : "navb" && props.show ? "navb" : "navbOther"
+      }
       sticky="top"
       collapseOnSelect
       expand="lg"
@@ -99,6 +103,7 @@ function Navb() {
                 Location
               </Link>
             </Nav.Link>
+            <Nav.Link href="/fees">Fees</Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>
             <Nav.Link>
               <Link
