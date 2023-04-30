@@ -45,7 +45,7 @@ function Navb() {
             fontSize: "20px",
           }}
         >
-          IEEE
+          ICMCSP 2024
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="collapsingIcons">
