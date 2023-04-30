@@ -1,16 +1,39 @@
-import React from "react";
-
+import React, { useRef, useEffect, useState } from "react";
+import { Map, Marker, Popup, NavigationControl } from "react-map-gl";
 const Location = () => {
+  const [lng, setLng] = useState("77.13368470616429");
+  const [lat, setLat] = useState("28.816678787482143");
+  // 28.8165847849844, 77.13368470616429
   return (
     <div
       id="location"
-      // style={{ height: "100%", width: "100%", overflow: "hidden" }}
+      style={{
+        width: "100%",
+        height: "100vh",
+        overflow: "hidden",
+      }}
     >
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.7589707644056!2d77.13065381102261!3d28.81625577546296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b1923ada2e3%3A0x1169930518add2fe!2sNational%20Institute%20of%20Technology%20Delhi!5e0!3m2!1sen!2sin!4v1682107206687!5m2!1sen!2sin"
-        style={{ border: "0", height: "100%", width: "100%" }}
-        
-      ></iframe>
+      <Map
+        mapboxAccessToken="pk.eyJ1IjoibWFuYW5qbjI3MTIiLCJhIjoiY2xoM2JscjA2MG1sMzNtbnB3aGI4ejE2NSJ9.cSobjk0Ol6A5spmq2beM-w"
+        style={{
+          width: "100%",
+          height: "100%",
+        }}
+        initialViewState={{
+          latitude: lat,
+          longitude: lng,
+          zoom: 13,
+        }}
+        mapStyle="mapbox://styles/mapbox/streets-v12"
+      >
+        <Marker
+          latitude="28.816678787482143"
+          longitude="77.13368470616429"
+          anchor="bottom"
+          draggable="false"
+        />
+        <NavigationControl />
+      </Map>
     </div>
   );
 };
