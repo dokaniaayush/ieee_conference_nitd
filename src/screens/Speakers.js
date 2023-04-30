@@ -6,7 +6,7 @@ const Speakers = () => {
     <div
       id="speakers"
       style={{
-        backgroundColor: "#465e87",
+        backgroundColor: "#273053",
         height: "600px",
         overflow: "hidden",
       }}
