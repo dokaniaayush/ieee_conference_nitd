@@ -4,6 +4,9 @@ import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import { CiMail } from "react-icons/ci";
+import { BiPhone } from "react-icons/bi";
+import { IoPersonOutline } from "react-icons/io5";
 import "./Footer.css";
 
 const Footer = () => {
@@ -121,7 +124,7 @@ const Footer = () => {
           }}
         >
           <h4>What</h4>
-          <p style={{ marginTop: "8px" }}>IEEE Conference</p>
+          <p style={{ marginTop: "8px" }}>ICMCSP 2024</p>
         </div>
         <div
           className="whenInfo"
@@ -133,7 +136,7 @@ const Footer = () => {
           }}
         >
           <h4>When</h4>
-          <p style={{ marginTop: "8px" }}>Date</p>
+          <p style={{ marginTop: "8px" }}>Aug 9-11, 2024</p>
         </div>
         <div
           className="whereInfo"
@@ -184,11 +187,67 @@ const Footer = () => {
               transition: "ease-in 0.5s",
             }}
           >
-            <h4>Prof Manoj Kumar</h4>
-            <h5>Conference Chair</h5>
-            <h5>Professor, Department of ECE, NIT Delhi</h5>
-            <h5>Email: manojtaleja@nitdelhi.ac.in</h5>
-            <h5>Contact Number: 9873853870 ,011-33861150</h5>
+            <div>
+              <IoPersonOutline
+                style={{ marginBottom: "10px", width: "25px", height: "25px" }}
+              />
+              <p style={{ fontWeight: "bold" }}>Prof Manoj Kumar</p>
+              <p>Conference Chair</p>
+              <p>Professor, Department of ECE, NIT Delhi</p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <CiMail
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+                onClick={() =>
+                  (window.location = "mailto:manojtaleja@nitdelhi.ac.in")
+                }
+              >
+                manojtaleja@nitdelhi.ac.in
+              </p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <BiPhone
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+              >
+                9873853870 ,011-33861150
+              </p>
+            </div>
           </div>
           <div
             className="contact2"
@@ -203,11 +262,67 @@ const Footer = () => {
               marginLeft: "20px",
             }}
           >
-            <h4>Prof Manoj Kumar</h4>
-            <h5>Conference Chair</h5>
-            <h5>Professor, Department of ECE, NIT Delhi</h5>
-            <h5>Email: manojtaleja@nitdelhi.ac.in</h5>
-            <h5>Contact Number: 9873853870 ,011-33861150</h5>
+            <div>
+              <IoPersonOutline
+                style={{ marginBottom: "10px", width: "25px", height: "25px" }}
+              />
+              <p style={{ fontWeight: "bold" }}>Dr. Manisha Bharti</p>
+              <p>Organizing Secretary</p>
+              <p>Professor, Department of ECE, NIT Delhi</p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <CiMail
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+                onClick={() =>
+                  (window.location = "mailto:manishabharti@nitdelhi.ac.in")
+                }
+              >
+                manishabharti@nitdelhi.ac.in
+              </p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <BiPhone
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+              >
+                9990344355 ,011-33861156
+              </p>
+            </div>
           </div>
           <div
             className="contact3"
@@ -222,19 +337,76 @@ const Footer = () => {
               marginLeft: "20px",
             }}
           >
-            <h4>Prof Manoj Kumar</h4>
-            <h5>Conference Chair</h5>
-            <h5>Professor, Department of ECE, NIT Delhi</h5>
-            <h5>Email: manojtaleja@nitdelhi.ac.in</h5>
-            <h5>Contact Number: 9873853870 ,011-33861150</h5>
+            <div>
+              <IoPersonOutline
+                style={{ marginBottom: "10px", width: "25px", height: "25px" }}
+              />
+              <p style={{ fontWeight: "bold" }}>Dr. Rikmantra Basu</p>
+              <p>Organizing Secretary</p>
+              <p>Professor, Department of ECE, NIT Delhi</p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <CiMail
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+                onClick={() =>
+                  (window.location = "mailto:rikmantrabasu@nitelhi.ac.in")
+                }
+              >
+                rikmantrabasu@nitelhi.ac.in
+              </p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <BiPhone
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+              >
+                9899320887 ,011-33861159
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <div
         className="bottomContainer"
         style={{
-          backgroundColor: "#273053",
+          backgroundColor: "#1c223b",
           color: "white",
+          width: "100%",
         }}
       >
         <p
