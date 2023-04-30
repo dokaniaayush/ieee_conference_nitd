@@ -4,94 +4,248 @@ import { AiFillFacebook } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import "./Footer.css";
 
 const Footer = () => {
-  const ColoredLine = ({ color }) => (
-    <hr
-      style={{
-        color: color,
-        backgroundColor: color,
-        height: "5",
-      }}
-    />
-  );
+  // const ColoredLine = ({ color }) => (
+  //   <hr
+  //     style={{
+  //       color: color,
+  //       backgroundColor: color,
+  //       height: "5",
+  //     }}
+  //   />
+  // );
   return (
-    <div id="footer" style={{ backgroundColor: "#465e87" }}>
-      {/* <div className='' id="foo-top">
-        <p className='fs-1 text-white'>Tech Innovation</p>
-        <p className='fs-1 text-white'>Conference 2035</p>
-      </div> */}
-      {/* <br /> */}
-      <ColoredLine color="red"/>
-      <div id="foo-middle" style={{ display: "flex", flexDirection: "row" }}>
-        <div className="lg-3 md-2 sm-4 m-5">
-          <p className="fs-2 text-white">What</p>
-          <p className="fs-5 text-bold">Date</p>
-        </div>
-        <div className="lg-3 md-2 sm-4 m-5">
-          <p className="fs-2 text-white">When</p>
-          <p className="fs-5 text-bold">Date</p>
-        </div>
-        <div className="lg-3 md-2 sm-4 m-5">
-          <p className="fs-2 text-white">Where</p>
-          <p className="fs-5 text-bold">Date</p>
-        </div>
-      </div>
-      <div className="" id="foo-bottom">
-        <h2 className="text-white">Contact Us</h2>
-        {/* <br /> */}
-        <Form style={{ display: "flex", flexDirection: "row" }}>
-          <Form.Group className="mb-3 m-2" controlId="formBasicEmail">
-            <Form.Control type="email" placeholder="Enter email" />
-          </Form.Group>
-          <Button className="m-2" variant="primary" type="submit">
-            Submit
-          </Button>
-        </Form>
-        {/* <br /> */}
-        <ul
-          id="social_media_icons"
-          style={{ display: "flex", flexDirection: "row" }}
-        >
-          <li className="socialIcons">
-            <AiFillFacebook />
-          </li>
-          <li className="socialIcons">
-            <AiFillTwitterCircle />
-          </li>
-          <li className="socialIcons">
-            <AiOutlineInstagram />
-          </li>
-          <li className="socialIcons">
-            <AiFillLinkedin />
-          </li>
-        </ul>
-        {/* <br /> */}
-      </div>
+    // <div id="footer" style={{ backgroundColor: "#465e87" }}>
+    //   {/* <div className='' id="foo-top">
+    //     <p className='fs-1 text-white'>Tech Innovation</p>
+    //     <p className='fs-1 text-white'>Conference 2035</p>
+    //   </div> */}
+    //   {/* <br /> */}
+    //   <ColoredLine color="red"/>
+    //   <div id="foo-middle" style={{ display: "flex", flexDirection: "row" }}>
+    //     <div className="lg-3 md-2 sm-4 m-5">
+    //       <p className="fs-2 text-white">What</p>
+    //       <p className="fs-5 text-bold">Date</p>
+    //     </div>
+    //     <div className="lg-3 md-2 sm-4 m-5">
+    //       <p className="fs-2 text-white">When</p>
+    //       <p className="fs-5 text-bold">Date</p>
+    //     </div>
+    //     <div className="lg-3 md-2 sm-4 m-5">
+    //       <p className="fs-2 text-white">Where</p>
+    //       <p className="fs-5 text-bold">Date</p>
+    //     </div>
+    //   </div>
+    //   <div className="" id="foo-bottom">
+    //     <h2 className="text-white">Contact Us</h2>
+    //     {/* <br /> */}
+    //     <Form style={{ display: "flex", flexDirection: "row" }}>
+    //       <Form.Group className="mb-3 m-2" controlId="formBasicEmail">
+    //         <Form.Control type="email" placeholder="Enter email" />
+    //       </Form.Group>
+    //       <Button className="m-2" variant="primary" type="submit">
+    //         Submit
+    //       </Button>
+    //     </Form>
+    //     {/* <br /> */}
+    //     <ul
+    //       id="social_media_icons"
+    //       style={{ display: "flex", flexDirection: "row" }}
+    //     >
+    //       <li className="socialIcons">
+    //         <AiFillFacebook />
+    //       </li>
+    //       <li className="socialIcons">
+    //         <AiFillTwitterCircle />
+    //       </li>
+    //       <li className="socialIcons">
+    //         <AiOutlineInstagram />
+    //       </li>
+    //       <li className="socialIcons">
+    //         <AiFillLinkedin />
+    //       </li>
+    //     </ul>
+    //     {/* <br /> */}
+    //   </div>
+    //   <div
+    //     className="footer-copyright text-center"
+    //     style={{
+    //       margin: 0,
+    //     }}
+    //   >
+    //     <p>
+    //       2023 Copyright © National Institute Of Technology, Delhi. All Rights
+    //       Reserved
+    //     </p>
+    //     <p>
+    //       Crafted with ❤️ by
+    //       <a href="" target="_blank" rel="noopener">
+    //         1
+    //       </a>
+    //       ,
+    //       <a href="" target="_blank" rel="noopener">
+    //         1
+    //       </a>
+    //       ,
+    //       <a href="" target="_blank" rel="noopener">
+    //         1
+    //       </a>
+    //     </p>
+    //   </div>
+    // </div>
+    <div
+      id="footer"
+      style={{ backgroundColor: "#273053", width: "100%", height: "100%" }}
+    >
       <div
-        className="footer-copyright text-center"
+        className="infoCard"
         style={{
-          margin: 0,
+          display: "flex",
+          width: "60%",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-between",
+          marginTop: "20px",
+          color: "white",
         }}
       >
-        <p>
+        <div
+          className="whatInfo"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <h4>What</h4>
+          <p style={{ marginTop: "8px" }}>IEEE Conference</p>
+        </div>
+        <div
+          className="whenInfo"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <h4>When</h4>
+          <p style={{ marginTop: "8px" }}>Date</p>
+        </div>
+        <div
+          className="whereInfo"
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <h4>Where</h4>
+          <p style={{ marginTop: "8px" }}>NIT Delhi</p>
+        </div>
+      </div>
+      <hr />
+      <div
+        style={{
+          width: "100%",
+          backgroundColor: "white",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <h3 style={{ marginTop: "15px" }}>Contact Information</h3>
+        <div
+          className="contactCard"
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "space-between",
+            width: "85%",
+            marginTop: "20px",
+            marginBottom: "30px",
+          }}
+        >
+          <div
+            className="contact1"
+            style={{
+              borderColor: "#273053",
+              borderWidth: "1px",
+              borderRadius: "25px",
+              borderStyle: "solid",
+              boxShadow: "0 1rem 3rem rgba(0,0,0,.575)",
+              padding: "25px",
+              transition: "ease-in 0.5s",
+            }}
+          >
+            <h4>Prof Manoj Kumar</h4>
+            <h5>Conference Chair</h5>
+            <h5>Professor, Department of ECE, NIT Delhi</h5>
+            <h5>Email: manojtaleja@nitdelhi.ac.in</h5>
+            <h5>Contact Number: 9873853870 ,011-33861150</h5>
+          </div>
+          <div
+            className="contact2"
+            style={{
+              borderColor: "#273053",
+              borderWidth: "1px",
+              borderRadius: "25px",
+              borderStyle: "solid",
+              boxShadow: "0 1rem 3rem rgba(0,0,0,.575)",
+              padding: "25px",
+              transition: "ease-in 0.5s",
+              marginLeft: "20px",
+            }}
+          >
+            <h4>Prof Manoj Kumar</h4>
+            <h5>Conference Chair</h5>
+            <h5>Professor, Department of ECE, NIT Delhi</h5>
+            <h5>Email: manojtaleja@nitdelhi.ac.in</h5>
+            <h5>Contact Number: 9873853870 ,011-33861150</h5>
+          </div>
+          <div
+            className="contact3"
+            style={{
+              borderColor: "#273053",
+              borderWidth: "1px",
+              borderRadius: "25px",
+              borderStyle: "solid",
+              boxShadow: "0 1rem 3rem rgba(0,0,0,.575)",
+              padding: "25px",
+              transition: "ease-in 0.5s",
+              marginLeft: "20px",
+            }}
+          >
+            <h4>Prof Manoj Kumar</h4>
+            <h5>Conference Chair</h5>
+            <h5>Professor, Department of ECE, NIT Delhi</h5>
+            <h5>Email: manojtaleja@nitdelhi.ac.in</h5>
+            <h5>Contact Number: 9873853870 ,011-33861150</h5>
+          </div>
+        </div>
+      </div>
+      <div
+        className="bottomContainer"
+        style={{
+          backgroundColor: "#273053",
+          color: "white",
+        }}
+      >
+        <p
+          style={{
+            marginTop: "8px",
+          }}
+        >
           2023 Copyright © National Institute Of Technology, Delhi. All Rights
           Reserved
         </p>
-        <p>
-          Crafted with ❤️ by
-          <a href="" target="_blank" rel="noopener">
-            1
-          </a>
-          ,
-          <a href="" target="_blank" rel="noopener">
-            1
-          </a>
-          ,
-          <a href="" target="_blank" rel="noopener">
-            1
-          </a>
-        </p>
+        <p>Made by Ayush Dokania, Manan Jain, Priyanshu Aggrawal</p>
       </div>
     </div>
   );
