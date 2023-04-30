@@ -53,8 +53,10 @@ const Home = () => {
       <HomePage />
       <Sponsor />
       <AboutConference />
-      <Speakers />
+      <hr />
       <AboutInstitute />
+      <Speakers />
+
       <RegistrationandParticipationFee />
       <Location />
       {/* <Contact /> */}
