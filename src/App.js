@@ -9,16 +9,19 @@ import Footer from "./screens/Footer";
 // import PropagateLoader from "react-spinners/PropagateLoader";
 import Committee from "./screens/Committee";
 import Contact from "./screens/Contact";
+import ImportantDates from "./screens/ImportantDates";
+
 function App() {
   return (
     <div className="App">
       {/* <Committee /> */}
       <Navb />
-      <Contact/>
-      {/* <HomePage />
+      {/* <Contact/> */}
+      <HomePage />
       <Sponsor />
       <Speakers />
-      <Location /> */}
+      <ImportantDates/>
+      <Location />
       <Footer />
     </div>
   );

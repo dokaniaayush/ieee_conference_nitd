@@ -6,6 +6,8 @@ const Speakers = () => {
     <div id="speakers"
       style={{
         backgroundColor: "#465e87",
+        height:"600px",
+        overflow:"hidden"
       }}
     >
       <div className="vl fs-1 fw-bold"
@@ -17,7 +19,40 @@ const Speakers = () => {
       >
         Our Speakers
       </div>
-      <div>
+      <div 
+        style={{
+            display:"flex", 
+            flexDirection:"row", 
+            overflowX:"scroll",
+            
+            }}>
+        <SpeakerCard
+          img = "https://nitdelhi.irins.org/assets/profile_images/62649.jpg"
+          name = "Rikarmantra Basu"
+          post = "Faculty"
+          disciption = "Best faculty of NITD"
+          insta=""
+          twitter=""
+          linkedIn=""
+        />
+        <SpeakerCard
+          img = "https://nitdelhi.irins.org/assets/profile_images/62649.jpg"
+          name = "Rikarmantra Basu"
+          post = "Faculty"
+          disciption = "Best faculty of NITD"
+          insta=""
+          twitter=""
+          linkedIn=""
+        />
+        <SpeakerCard
+          img = "https://nitdelhi.irins.org/assets/profile_images/62649.jpg"
+          name = "Rikarmantra Basu"
+          post = "Faculty"
+          disciption = "Best faculty of NITD"
+          insta=""
+          twitter=""
+          linkedIn=""
+        />
         <SpeakerCard
           img = "https://nitdelhi.irins.org/assets/profile_images/62649.jpg"
           name = "Rikarmantra Basu"
