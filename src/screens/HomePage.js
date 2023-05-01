@@ -82,27 +82,34 @@ const HomePage = () => {
           </h3>
           <h3
             style={{
-              color: "white",
+              color: "rgb(68, 1, 68)",
             }}
           >
             First International Conference on
           </h3>
           <h3
             style={{
-              color: "white",
+              color: "rgb(68, 1, 68)",
             }}
           >
             Microelectronics, Communication and Signal Processing
           </h3>
           <h3
             style={{
-              color: "white",
+              color: "rgb(68, 1, 68)",
             }}
           >
             (ICMCSP 2024)
           </h3>
         </div>
-
+        <h3
+          style={{
+            color: "black",
+            marginTop: "10px",
+          }}
+        >
+          Aug 9-11, 2024
+        </h3>
         <div className="socialIconsBar">
           <ul>
             <li className="socialIcons">
