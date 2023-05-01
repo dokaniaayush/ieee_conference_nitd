@@ -3,6 +3,7 @@ import React from "react";
 const AboutConference = () => {
   return (
     <div
+      id="about"
       style={{
         width: "100%",
         height: "100%",

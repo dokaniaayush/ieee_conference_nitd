@@ -96,6 +96,14 @@ const SponsorshipCharges = () => {
         >
           Sponsorship Charges
         </div>
+        <Table striped bordered hover style={{marginBottom:"0px"}}>
+          <thead>
+            <tr>
+              <th style={{width:"50%"}}>Income</th>
+              <th>Expenditure</th>
+            </tr>
+          </thead>
+        </Table>
         <Table striped bordered hover>
           <thead>
             <tr>

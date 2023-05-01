@@ -13,6 +13,8 @@ import Fees from "./Fees";
 import { DotLoader } from "react-spinners";
 
 import "./../App.css";
+import ImportantDates from "./ImportantDates";
+import ScrollTop from "../components/ScrollTop";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -51,16 +53,16 @@ const Home = () => {
     <div className="App">
       <Navb show={true} />
       <HomePage />
-      <Sponsor />
       <AboutConference />
       <hr />
       <AboutInstitute />
+      <Sponsor />
       <Speakers />
-
-      <RegistrationandParticipationFee />
+      <ImportantDates />
       <Location />
       {/* <Contact /> */}
       <Footer />
+      <ScrollTop/>
     </div>
   );
 };

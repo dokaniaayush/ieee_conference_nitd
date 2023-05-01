@@ -30,9 +30,11 @@ const ImportantDates = () => {
     ];
 
     return (
-        <div style={{
-            backgroundColor: "#465e90"
-        }}>
+        <div 
+            id="impDates"
+            style={{
+                backgroundColor: "#465e90"
+            }}>
             <div
                 style={{
                     margin: "10px 200px",

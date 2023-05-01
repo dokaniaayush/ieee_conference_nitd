@@ -69,3 +69,16 @@
   border-left: 6px solid white;
   /* height: 100%; */
 }
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-top-btn.show {
+  opacity: 1;
+}

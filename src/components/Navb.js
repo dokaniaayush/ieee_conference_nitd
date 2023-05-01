@@ -43,7 +43,7 @@ function Navb(props) {
           }}
         > */}
         <Navbar.Brand
-          href="#home"
+          href="/"
           style={{
             fontFamily: "Caveat",
             fontSize: "20px",
@@ -58,6 +58,36 @@ function Navb(props) {
               textAlign: "center",
             }}
           >
+            <Nav.Link>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-55}
+                duration={500}
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
+                About
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
+                to="sponsors"
+                spy={true}
+                smooth={true}
+                offset={-55}
+                duration={500}
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
+                Sponsors
+              </Link>
+            </Nav.Link>
             <Nav.Link>
               <Link
                 to="speakers"
@@ -75,7 +105,7 @@ function Navb(props) {
             </Nav.Link>
             <Nav.Link>
               <Link
-                to="sponsors"
+                to="impDates"
                 spy={true}
                 smooth={true}
                 offset={-55}
@@ -85,7 +115,7 @@ function Navb(props) {
                   fontFamily: "Libre Franklin",
                 }}
               >
-                Sponsors
+                Important Dates
               </Link>
             </Nav.Link>
             <Nav.Link>
@@ -107,7 +137,7 @@ function Navb(props) {
             <Nav.Link href="/committee">Committee</Nav.Link>
             <Nav.Link>
               <Link
-                to="contact"
+                to="footer"
                 spy={true}
                 smooth={true}
                 offset={-55}
@@ -117,7 +147,7 @@ function Navb(props) {
                   fontFamily: "Libre Franklin",
                 }}
               >
-                Contact
+                Contact Us
               </Link>
             </Nav.Link>
             <NavDropdown

@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div
-      id='contact'
+      id="contact"
       className="container"
       style={{
         display: "flex",

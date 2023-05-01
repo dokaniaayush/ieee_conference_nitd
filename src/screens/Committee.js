@@ -5,6 +5,7 @@ import CommitteeNavbar from "../components/CommitteeNavbar";
 import InternationalAdvisoryComittee from "../components/InternationalAdvisoryComittee";
 import NationalAdvisoryCommittee from "../components/NationalAdvisoryCommittee";
 import Navb from "../components/Navb";
+import ScrollTop from "../components/ScrollTop";
 
 const Committee = () => {
   return (
@@ -35,6 +36,7 @@ const Committee = () => {
         <br />
         <NationalAdvisoryCommittee />
         <br />
+        <ScrollTop/>
       </div>
     </>
   );

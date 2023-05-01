@@ -245,7 +245,7 @@ const Footer = () => {
                   cursor: "pointer",
                 }}
               >
-                9873853870 ,011-33861150
+                9873853870, 011-33861150
               </p>
             </div>
           </div>
@@ -320,7 +320,7 @@ const Footer = () => {
                   cursor: "pointer",
                 }}
               >
-                9990344355 ,011-33861156
+                9990344355, 011-33861156
               </p>
             </div>
           </div>
@@ -395,7 +395,7 @@ const Footer = () => {
                   cursor: "pointer",
                 }}
               >
-                9899320887 ,011-33861159
+                9899320887, 011-33861159
               </p>
             </div>
           </div>
@@ -414,8 +414,7 @@ const Footer = () => {
             marginTop: "8px",
           }}
         >
-          2023 Copyright © National Institute Of Technology, Delhi. All Rights
-          Reserved
+          2023 Copyright © National Institute Of Technology, Delhi. All Rights Reserved
         </p>
       </div>
       <div
@@ -432,14 +431,14 @@ const Footer = () => {
             marginBottom: "0px",
           }}
         >
-          Made by{" "}
+          SITE DEVELOPED BY{" "}
           <a
             href="https://www.linkedin.com/in/ayush-dokania-2b27131b9/"
             style={{
               textDecorationLine: "none",
             }}
           >
-            Ayush Dokania,
+            AYUSH Kr. DOKANIA,
           </a>{" "}
           <a
             href="https://www.linkedin.com/in/manan-jain-65aa561b7/"
@@ -447,7 +446,7 @@ const Footer = () => {
               textDecorationLine: "none",
             }}
           >
-            Manan Jain,
+            MANAN JAIN,
           </a>{" "}
           <a
             href="https://www.linkedin.com/in/priyanshu-agrawal-5a00651b1/"
@@ -455,7 +454,7 @@ const Footer = () => {
               textDecorationLine: "none",
             }}
           >
-            Priyanshu Aggrawal
+            PRIYANSHU AGRAWAL
           </a>
         </p>
       </div>
