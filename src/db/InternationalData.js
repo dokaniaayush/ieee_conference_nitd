@@ -15,64 +15,64 @@ const InternationalData = [
     {
       id: 4,
       name: "Prof. Jayanta Sarma",
-      description: "University of Bath, UK\njsarmabath@gmail.com",
-      email: "",
+      description: "University of Bath, UK",
+      email: "jsarmabath@gmail.com",
     },
     {
       id: 5,
       name: "Prof. Judy Rorrison",
       description:
-        "Department of Electrical and Electronic Engineering, University of Bristol, UK\nJudy.Rorison@bristol.ac.uk",
-      email: "",
+        "Department of Electrical and Electronic Engineering, University of Bristol, UK",
+      email: "Judy.Rorison@bristol.ac.uk",
     },
     {
       id: 6,
       name: "Prof. Guo-En Chang",
       description:
-        "College of Engineering and AIM-HI, National Chun Cheng University, Taiwan\nsamar@ieee.org",
-      email: "",
+        "College of Engineering and AIM-HI, National Chun Cheng University, Taiwan",
+      email: "samar@ieee.org",
     },
     {
       id: 7,
       name: "Prof. Richard Hogg",
       description:
-        "Dept. of Electronic and Nanoscale Engineering, University of Glasgow, UK\nRichard.Hogg@glasgow.ac.uk",
-      email: "",
+        "Dept. of Electronic and Nanoscale Engineering, University of Glasgow, UK",
+      email: "Richard.Hogg@glasgow.ac.uk",
     },
     {
       id: 8,
       name: "Dr. Anirban Bandyopadhyay",
       description:
         "Senior Director, Strategic Applications, GLOBALFOUNDRIES, Inc., Santa Clara, California, USA\nIEEE Distinguished Lecturer",
-      email: "",
+      email: "Anirban_bandy0@ieee.org",
     },
     {
       id: 9,
       name: "Dr. Martin Lopez-Garcia",
       description:
-        "Natural and Artificial Photonic Structures and Devices Group, International Iberian Nanotechnology Laboratory, Portugal\nM.LopezGarcia@leeds.ac.uk",
-      email: "",
+        "Natural and Artificial Photonic Structures and Devices Group, International Iberian Nanotechnology Laboratory, Portugal",
+      email: "M.LopezGarcia@leeds.ac.uk",
     },
     {
       id: 10,
       name: "Prof. Arturas Serackis",
       description:
-        "Professor & Head Department of Electronics, Vilnius University, Lithuania\narturas@ieee.org, arturas.serackis@vilniustech.lt",
-      email: "",
+        "Professor & Head Department of Electronics, Vilnius University, Lithuania\n",
+      email: "arturas@ieee.org, arturas.serackis@vilniustech.lt",
     },
     {
       id: 11,
       name: "Dr. Santosh Kumar",
       description:
-        "Associate Professor\nLiocheng University, China, School of Physics Science and Information Technology, No. 1, Hunan Road, Liaocheng, Shandong 252059, China\nsantosh@icu.edu.cn",
-      email: "",
+        "Associate Professor\nLiocheng University, China, School of Physics Science and Information Technology, No. 1, Hunan Road, Liaocheng, Shandong 252059, China",
+      email: "santosh@icu.edu.cn",
     },
     {
       id: 12,
       name: "Dr. Miaoqing Huang",
       description:
-        "Associate Professor, Computer Science & Computer Engineering Department,University of Arkansas,Fayetteville, AR 72701, USA\nmqhuang@uark.edu",
-      email: "",
+        "Associate Professor, Computer Science & Computer Engineering Department,University of Arkansas,Fayetteville, AR 72701, USA",
+      email: "mqhuang@uark.edu",
     },
     {
       id: 13,
