@@ -13,7 +13,7 @@ const Committee = () => {
       <Navb show={false} />
       <div
         id="committee"
-        className="container"
+        // className="container-fluid"
         style={{
           display: "flex",
           flex: "1",

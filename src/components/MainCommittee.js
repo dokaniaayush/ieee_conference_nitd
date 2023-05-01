@@ -12,8 +12,8 @@ const MainCommittee = () => {
           alignItems: "center",
           borderColor: "black",
           borderWidth: "2px",
-          backgroundColor: "#465e87",
-          width: "80%",
+          backgroundColor: "rgb(39, 48, 83)",
+          width: "100%",
         }}
       >
         <div
