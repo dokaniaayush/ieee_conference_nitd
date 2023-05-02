@@ -1,197 +1,68 @@
-import React from 'react'
+import React from "react";
+import MainData from "../db/MainData";
+import { Table } from "react-bootstrap";
 
 const MainCommittee = () => {
   return (
     <div
-        id='main_committee'
-        classname="card"
+      style={{
+        backgroundColor: "#273053",
+        width: "100%",
+      }}
+    >
+      <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          flexDirection: "column",
-          alignItems: "center",
-          borderColor: "black",
-          borderWidth: "2px",
-          backgroundColor: "rgb(39, 48, 83)",
-          width: "100%",
+          margin: "10px 200px",
+          backgroundColor: "white",
         }}
       >
         <div
-          className="card"
+          className="fs-1 fw-bold"
           style={{
-            width: "70%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: "10px",
+            color: "Black",
+            textAlign: "left",
+            margin: "5px",
+            paddingLeft: "10px",
           }}
         >
-          <div
-            className="card-body"
-            style={{
-              width: "600px",
-              marginBottom: "10px",
-            }}
-          >
-            <h5 className="card-title">Honorary Chair</h5>
-            <p classname="card-text">
-              Prof. Yogesh Singh, Vice Chancellor, Delhi University, India
-            </p>
-          </div>
+          Committee Members
         </div>
-        <div
-          className="card"
-          style={{
-            width: "70%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: "10px",
-          }}
-        >
-          <div
-            className="card-body"
-            style={{
-              width: "600px",
-              marginBottom: "10px",
-            }}
-          >
-            <h5 className="card-title">General Chair</h5>
-            <p classname="card-text">
-              Prof. Ajay Kumar Sharma, Director, NIT Delhi
-            </p>
-          </div>
-        </div>
-        <div
-          className="card"
-          style={{
-            width: "70%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: "10px",
-          }}
-        >
-          <div
-            className="card-body"
-            style={{
-              width: "600px",
-              marginBottom: "10px",
-            }}
-          >
-            <h5 className="card-title">Organizing Chair</h5>
-            <p classname="card-text">
-              Dr. Manoj Kumar, Professor, Electronics and Communication
-              Engineering, NIT Delhi
-            </p>
-          </div>
-        </div>
-        <div
-          className="card"
-          style={{
-            width: "70%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: "10px",
-          }}
-        >
-          <div
-            className="card-body"
-            style={{
-              width: "600px",
-              marginBottom: "10px",
-            }}
-          >
-            <h5 className="card-title">Organizing Secretary</h5>
-            <p classname="card-text">
-              Dr. Rikmantra Basu, Associate Professor, Electronics and
-              Communication Engineering, NIT Delhi
-            </p>
-            <p classname="card-text">
-              Dr. Manisha Bharti, Associate Professor, Electronics and
-              Communication Engineering, NIT Delhi
-            </p>
-          </div>
-        </div>
-        <div
-          className="card"
-          style={{
-            width: "70%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: "10px",
-          }}
-        >
-          <div
-            className="card-body"
-            style={{
-              width: "600px",
-              marginBottom: "10px",
-            }}
-          >
-            <h5 className="card-title">Technical Program Chair</h5>
-            <p classname="card-text">
-            Dr. Rikmantra Basu, Associate Professor, Electronics and Communication Engineering, NIT Delhi
-            </p>
-          </div>
-        </div>
-        <div
-          className="card"
-          style={{
-            width: "70%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: "10px",
-          }}
-        >
-          <div
-            className="card-body"
-            style={{
-              width: "600px",
-              marginBottom: "10px",
-            }}
-          >
-            <h5 className="card-title">Publication Chair</h5>
-            <p classname="card-text">
-            Dr. Manisha Bharti, Associate Professor, Electronics and Communication Engineering, NIT Delhi
-            </p>
-          </div>
-        </div>
-        <div
-          className="card"
-          style={{
-            width: "70%",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            marginBottom: "10px",
-          }}
-        >
-          <div
-            className="card-body"
-            style={{
-              width: "600px",
-              marginBottom: "10px",
-            }}
-          >
-            <h5 className="card-title">Finance Chair/ Treasurer</h5>
-            <p classname="card-text">
-            Dr. D. Vaithiyanathan
-            </p>
-          </div>
-        </div>
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            {MainData.map(({ id, position, description }) => (
+              <tr key={id}>
+                <td style={{ fontWeight: "bold" }}>{position}</td>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                  }}
+                >
+                  {description.split("\n").map((item, i) => (
+                    <td
+                      style={{
+                        width: "100%",
+                        textAlign: "left",
+                      }}
+                    >
+                      {item}
+                    </td>
+                  ))}
+                </div>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default MainCommittee
+export default MainCommittee;

@@ -23,19 +23,10 @@ const Committee = () => {
         }}
       >
         {/* <CommitteeNavbar /> */}
-        <h3 style={{ margin: "25px" }}>Committee</h3>
         <MainCommittee />
-        <br />
-        <h3 style={{ margin: "20px" }}>Technical Program Committee</h3>
         <TechnicalProgramCommittee />
-        <br />
-        <h3 style={{ margin: "20px" }}>International Advisory Committee</h3>
-        <br />
         <InternationalAdvisoryComittee />
-        <h3 style={{ margin: "20px" }}>National Advisory Committee</h3>
-        <br />
         <NationalAdvisoryCommittee />
-        <br />
         <ScrollTop/>
       </div>
     </>

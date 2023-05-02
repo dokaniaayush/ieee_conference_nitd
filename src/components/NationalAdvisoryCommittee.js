@@ -1,31 +1,54 @@
-import React from 'react'
-import NationalData from '../db/NationalData'
-import Card from './Card'
+import React from "react";
+import NationalData from "../db/NationalData";
+import { Table } from "react-bootstrap";
 
 const NationalAdvisoryComittee = () => {
   return (
     <div
-        id='national_advisory_committee'
+      style={{
+        backgroundColor: "#273053",
+      }}
+    >
+      <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          flexDirection: "column",
-          alignItems: "center",
-          borderColor: "black",
-          borderWidth: "2px",
-          backgroundColor: "rgb(39, 48, 83)",
-          width: "100%",
+          margin: "10px 200px",
+          backgroundColor: "white",
         }}
       >
-      {
-        NationalData.map((data)=>{
-          return(
-            <Card key={data.id} name={data.name} description={data.description} email={data.email}/>
-          )
-      })
-      }        
+        <div
+          className="fs-1 fw-bold"
+          style={{
+            color: "Black",
+            textAlign: "left",
+            margin: "5px",
+            paddingLeft: "10px",
+          }}
+        >
+          National Advisory Committee
+        </div>
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            {NationalData.map(({ id, name, description, email }) => (
+              <tr key={id}>
+                <td style={{fontWeight:'bold'}}>{name}</td>
+                <td>{description}</td>
+                <td>
+                  <a href={`mailto:${email}`}>{email}</a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default NationalAdvisoryComittee
+export default NationalAdvisoryComittee;
