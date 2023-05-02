@@ -191,7 +191,7 @@ const Footer = () => {
               <IoPersonOutline
                 style={{ marginBottom: "10px", width: "25px", height: "25px" }}
               />
-              <p style={{ fontWeight: "bold" }}>Prof Manoj Kumar</p>
+              <p style={{ fontWeight: "bold" }}>Prof. Manoj Kumar</p>
               <p>Conference Chair</p>
               <p>Professor, Department of ECE, NIT Delhi</p>
             </div>
@@ -268,7 +268,7 @@ const Footer = () => {
               />
               <p style={{ fontWeight: "bold" }}>Dr. Manisha Bharti</p>
               <p>Organizing Secretary</p>
-              <p>Professor, Department of ECE, NIT Delhi</p>
+              <p>Associate Professor, Department of ECE, NIT Delhi</p>
             </div>
             <div
               style={{
@@ -343,7 +343,7 @@ const Footer = () => {
               />
               <p style={{ fontWeight: "bold" }}>Dr. Rikmantra Basu</p>
               <p>Organizing Secretary</p>
-              <p>Professor, Department of ECE, NIT Delhi</p>
+              <p>Associate Professor, Department of ECE, NIT Delhi</p>
             </div>
             <div
               style={{
@@ -414,7 +414,8 @@ const Footer = () => {
             marginTop: "8px",
           }}
         >
-          2023 Copyright © National Institute Of Technology, Delhi. All Rights Reserved
+          2023 Copyright © National Institute Of Technology, Delhi. All Rights
+          Reserved
         </p>
       </div>
       <div

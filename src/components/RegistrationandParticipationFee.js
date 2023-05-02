@@ -2,7 +2,7 @@ import React from "react";
 import Table from "react-bootstrap/Table";
 
 const RegistrationandParticipationFee = () => {
-  const Fees = [
+  const Fees1 = [
     {
       Category: "Academician/Researcher( Non IEEE Member",
       Fee: "₹ 8000/-",
@@ -40,6 +40,40 @@ const RegistrationandParticipationFee = () => {
       TotalAmount: "₹ 20,000/-",
     },
   ];
+  const Fees2 = [
+    {
+      Category1: "Academician/Researcher( Non IEEE Member",
+      Fee1: "USD 350",
+      Number: "30",
+      TotalAmount: "₹ 2,40,000/-",
+    },
+    {
+      Category1: "Academician/Researcher (IEEE Members)",
+      Fee1: "USD 300",
+      Number: "20",
+      TotalAmount: "₹ 1,40,000/-",
+    },
+    {
+      Category1: "Students(Non IEEE Member)",
+      Fee1: "USD 250",
+      Number: "20",
+      TotalAmount: "₹ 1,40,000/-",
+    },
+    {
+      Category1: "Students (IEEE Members)",
+      Fee1: "USD 200",
+      Number: "20",
+      TotalAmount: "₹ 1,20,000/-",
+    },
+    {
+      Category1: "Delegates (Non-Authors/Additional Authors) (IEEE Members)",
+      Fee1: "USD 100",
+    },
+    {
+      Category: "Delegates (Non-Authors/Additional Authors) (Non IEEE Members)",
+      Fee: "USD 150",
+    },
+  ];
   return (
     <div
       style={{
@@ -63,22 +97,51 @@ const RegistrationandParticipationFee = () => {
         >
           Registration and Participation Fee
         </div>
+        <hr />
+        <div
+          style={{
+            fontWeight: "bold",
+            marginBottom: "10px",
+          }}
+        >
+          Indian Authors
+        </div>
         <Table striped bordered hover>
           <thead>
             <tr>
               <th>Category</th>
-              <th>Fee</th>
-              <th>Number</th>
-              <th>Total Amount</th>
+              <th style={{ width: "30%" }}>Registration Fee/Person</th>
             </tr>
           </thead>
           <tbody>
-            {Fees.map(({ Category, Fee, Number, TotalAmount }) => (
+            {Fees1.map(({ Category, Fee }) => (
               <tr key={Category}>
                 <td>{Category}</td>
                 <td>{Fee}</td>
-                <td>{Number}</td>
-                <td>{TotalAmount}</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+        <div
+          style={{
+            fontWeight: "bold",
+            marginBottom: "10px",
+          }}
+        >
+          Foreign Authors
+        </div>
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th style={{ width: "30%" }}>Registration Fee/Person</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Fees2.map(({ Category1, Fee1 }) => (
+              <tr key={Category1}>
+                <td>{Category1}</td>
+                <td>{Fee1}</td>
               </tr>
             ))}
           </tbody>

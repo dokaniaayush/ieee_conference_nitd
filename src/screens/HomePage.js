@@ -5,7 +5,6 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import "./HomePage.css";
 
-
 const HomePage = () => {
   return (
     <div
@@ -43,8 +42,8 @@ const HomePage = () => {
             <img
               src={require("./../assets/img/nitd_logo.jpg")}
               style={{
-                height: "120px",
-                width: "120px",
+                height: "100px",
+                width: "100px",
               }}
               alt="logo"
             />
@@ -52,20 +51,22 @@ const HomePage = () => {
               <h2
                 style={{
                   fontFamily: "Noto Sans",
+                  fontSize: "30px",
                 }}
               >
-                Electronics and Communication Department
+                Department of Electronics and Communication Engineering
               </h2>
-              <h2
+              {/* <h2
                 style={{
                   fontFamily: "Noto Sans",
                 }}
               >
                 Of
-              </h2>
+              </h2> */}
               <h2
                 style={{
                   fontFamily: "Noto Sans",
+                  fontSize: "30px",
                 }}
               >
                 National Institute of Technology Delhi
@@ -83,6 +84,7 @@ const HomePage = () => {
           <h3
             style={{
               color: "rgb(68, 1, 68)",
+              fontWeight: "bold",
             }}
           >
             First International Conference on
@@ -90,6 +92,7 @@ const HomePage = () => {
           <h3
             style={{
               color: "rgb(68, 1, 68)",
+              fontWeight: "bold",
             }}
           >
             Microelectronics, Communication and Signal Processing
@@ -97,6 +100,7 @@ const HomePage = () => {
           <h3
             style={{
               color: "rgb(68, 1, 68)",
+              fontWeight: "bold",
             }}
           >
             (ICMCSP 2024)

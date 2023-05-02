@@ -20,6 +20,7 @@ const AboutInstitute = () => {
           alignItems: "center",
           justifyContent: "center",
           marginTop: "20px",
+          textAlign: "justify",
         }}
       >
         <h3>About The Institute</h3>

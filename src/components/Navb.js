@@ -134,7 +134,8 @@ function Navb(props) {
               </Link>
             </Nav.Link>
             <Nav.Link href="/fees">Fees</Nav.Link>
-            <Nav.Link href="/committee">Committee</Nav.Link>
+            <Nav.Link href="/committee">Committee</Nav.Link>]
+            <Nav.Link href="/tracks">Tracks</Nav.Link>
             <Nav.Link>
               <Link
                 to="footer"
@@ -150,7 +151,7 @@ function Navb(props) {
                 Contact Us
               </Link>
             </Nav.Link>
-            <NavDropdown
+            {/* <NavDropdown
               title="Dropdown"
               style={{
                 fontFamily: "Libre Franklin",
@@ -195,7 +196,7 @@ function Navb(props) {
               >
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
           <Nav.Link>
             <Link

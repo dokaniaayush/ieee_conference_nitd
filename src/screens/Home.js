@@ -7,6 +7,7 @@ import Speakers from "./Speakers";
 import Footer from "./Footer";
 import AboutInstitute from "./AboutInstitute";
 import AboutConference from "./AboutConference";
+import Tracks from "./Tracks";
 import Contact from "./Contact";
 import RegistrationandParticipationFee from "./../components/RegistrationandParticipationFee";
 import Fees from "./Fees";

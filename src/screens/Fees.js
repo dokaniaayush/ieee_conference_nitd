@@ -13,7 +13,7 @@ const Fees = () => {
           backgroundColor: "#273053",
         }}
       >
-        <SponsorshipCharges />
+        {/* <SponsorshipCharges /> */}
         <RegistrationandParticipationFee />
         <hr style={{backgroundColor:"white", height:"5px"}}/>
         <Footer/>
