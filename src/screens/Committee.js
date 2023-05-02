@@ -6,6 +6,7 @@ import InternationalAdvisoryComittee from "../components/InternationalAdvisoryCo
 import NationalAdvisoryCommittee from "../components/NationalAdvisoryCommittee";
 import Navb from "../components/Navb";
 import ScrollTop from "../components/ScrollTop";
+import Footer from './Footer'
 
 const Committee = () => {
   return (
@@ -28,6 +29,7 @@ const Committee = () => {
         <InternationalAdvisoryComittee />
         <NationalAdvisoryCommittee />
         <ScrollTop/>
+        <Footer/>
       </div>
     </>
   );
