@@ -35,30 +35,37 @@ const AboutInstitute = () => {
           relevant areas, like electronic devices and circuits, semiconductor
           photonics, optical communication and opto-electronics, signal & speech
           processing, analog & digital VLSI design and circuits, antenna & wave
-          propagation, networking, AI and ML etc. It has excellent laboratories
-          and research facilities in electronic devices and circuits, electronic
-          measurement and instrumentation, microprocessor and microcontroller,
-          microwave and antenna design, optical fiber communication and optical
-          device, multimedia, and advanced communication and design automation
-          and simulation laboratory. The faculty of the department has published
-          123 reputed international journal papers and 78 international/
-          national conference papers in the last 3 academic years. Departmental
-          faculty has published journal papers in IEEE Transaction on Electronic
-          devices, IEEE Photonics Technology, IEEE Electron Devices, Springer
-          journals, Elsevier journals etc. The Department and faculty members
-          have received projects, grants, and fellowships from the Ministry of
+          propagation, networking, AI and ML etc.
+        </p>
+        <p>
+          It has excellent laboratories and research facilities in electronic
+          devices and circuits, electronic measurement and instrumentation,
+          microprocessor and microcontroller, microwave and antenna design,
+          optical fiber communication and optical device, multimedia, and
+          advanced communication and design automation and simulation
+          laboratory. The faculty of the department has published 123 reputed
+          international journal papers and 78 international/ national conference
+          papers in the last 3 academic years. Departmental faculty has
+          published journal papers in IEEE Transaction on Electronic devices,
+          IEEE Photonics Technology, IEEE Electron Devices, Springer journals,
+          Elsevier journals etc. The Department and faculty members have
+          received projects, grants, and fellowships from the Ministry of
           Electronics and Information Technology (MeitY), the Department of
           Science and Technology (DST)-SERB, and other funding agencies. The
           Department has active collaborations with academic Institutes &
-          research institutes in India and abroad. The Department of ECE has a
-          blend of young as well as experienced dynamic faculty members and is
-          committed to providing quality education and research in the field.
-          Faculty members of the department have excellent academic & research
-          credentials and published numerous articles in the diversified field
-          and have adequate experience in advanced research. The department of
-          ECE provides a creative learning environment to the students for
-          excellence in technical education. The department hopes to achieve the
-          national goals and objectives of industrialization and self-reliance.
+          research institutes in India and abroad.
+        </p>
+        <p>
+          {" "}
+          The Department of ECE has a blend of young as well as experienced
+          dynamic faculty members and is committed to providing quality
+          education and research in the field. Faculty members of the department
+          have excellent academic & research credentials and published numerous
+          articles in the diversified field and have adequate experience in
+          advanced research. The department of ECE provides a creative learning
+          environment to the students for excellence in technical education. The
+          department hopes to achieve the national goals and objectives of
+          industrialization and self-reliance.
         </p>
       </div>
     </div>
