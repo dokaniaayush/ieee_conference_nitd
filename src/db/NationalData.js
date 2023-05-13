@@ -27,6 +27,20 @@ const NationalData = [
       "Vice Chancellor, BITS Pilani Ex Director, IIT Delhi Pillay Chair Professor, Department of Electrical Engineering, Indian Institute of Technology (IIT) Delhi.",
     email: "rrao@iitd.ac.in",
   },
+  {
+    id: 4,
+    name: "Prof. Neena Gupta",
+    description:
+      "Professor, Department of Electronics and Communication Engineering, PEC Chandigarh",
+    email: "",
+  },
+  {
+    id: 4,
+    name: "Dr. Jyoti Kedia",
+    description:
+      "Assistant Professor, Department of Electronics and Communication Engineering, PEC Chandigarh.",
+    email: "",
+  },
 ];
 
 export default NationalData;

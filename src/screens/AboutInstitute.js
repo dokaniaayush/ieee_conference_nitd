@@ -23,49 +23,36 @@ const AboutInstitute = () => {
           textAlign: "justify",
         }}
       >
-        <h3>About The Department</h3>
+        <h3>
+          About the Department of Electronics and Communication Engineering, NIT
+          Delhi
+        </h3>
         <p>
-          The Department of Electronic and Communication Engineering (ECE),
-          National Institute of Technology Delhi was established in 2010,
-          immediately with the beginning of the Institute under the aegis of the
-          Ministry of Human Resource and Development (MHRD), Govt. of India.
-          Currently, it is offering one Undergraduate (B. Tech.) Program and two
-          Postgraduate (M. Tech) programs in ECE and VLSI Design. The Department
-          also offers Ph.D. and Post-Doctoral Fellowship (PDF) Programme in
-          relevant areas, like electronic devices and circuits, semiconductor
-          photonics, optical communication and opto-electronics, signal & speech
-          processing, analog & digital VLSI design and circuits, antenna & wave
-          propagation, networking, AI and ML etc.
+          The Department of ECE was established in 2010, immediately with the
+          beginning of the Institute under the aegis of the Ministry of
+          Education (MoE), Govt. of India. Currently, the Department is offering
+          one undergraduate program as B. Tech (ECE) and two postgraduate
+          programs as M. Tech. ECE and M. Tech. ECE (VLSI). The Department also
+          offers Ph. D. and Post-Doctoral Fellowship (PDF) Programme in relevant
+          areas of electronics and communication engineering. Department has
+          good infrastructure including laboratories and research facilities in
+          electronic devices and circuits, electronic measurement and
+          instrumentation, microprocessor and microcontroller, microwave and
+          antenna design, optical fiber communication and optical devices,
+          multimedia, advanced communication and VLSI design. Faculty members of
+          ECE department have received projects, grants, and fellowships from
+          various funding agencies. The Department has active collaborations
+          with academic & research institutes.
         </p>
         <p>
-          It has excellent laboratories and research facilities in electronic
-          devices and circuits, electronic measurement and instrumentation,
-          microprocessor and microcontroller, microwave and antenna design,
-          optical fiber communication and optical device, multimedia, and
-          advanced communication and design automation and simulation
-          laboratory. The faculty of the department has published 123 reputed
-          international journal papers and 78 international/ national conference
-          papers in the last 3 academic years. Departmental faculty has
-          published journal papers in IEEE Transaction on Electronic devices,
-          IEEE Photonics Technology, IEEE Electron Devices, Springer journals,
-          Elsevier journals etc. The Department and faculty members have
-          received projects, grants, and fellowships from the Ministry of
-          Electronics and Information Technology (MeitY), the Department of
-          Science and Technology (DST)-SERB, and other funding agencies. The
-          Department has active collaborations with academic Institutes &
-          research institutes in India and abroad.
-        </p>
-        <p>
-          {" "}
           The Department of ECE has a blend of young as well as experienced
           dynamic faculty members and is committed to providing quality
           education and research in the field. Faculty members of the department
-          have excellent academic & research credentials and published numerous
-          articles in the diversified field and have adequate experience in
-          advanced research. The department of ECE provides a creative learning
-          environment to the students for excellence in technical education. The
-          department hopes to achieve the national goals and objectives of
-          industrialization and self-reliance.
+          have excellent academic & research credentials and published many
+          peer-reviewed journal articles/papers, Books, Book Chapters, etc. in
+          the diversified field and have adequate experience in teaching and
+          research. The department of ECE provides a creative learning
+          environment to the students for excellence in technical education.
         </p>
       </div>
     </div>

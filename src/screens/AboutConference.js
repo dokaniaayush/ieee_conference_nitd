@@ -26,21 +26,25 @@ const AboutConference = () => {
       >
         <h3>About The Conference</h3>
         <p>
-          The conference is being proposed to be organized for the first time
-          with the theme of “Microelectronics, Communication and Signal
-          Processing.” However, ICMCSP 2024 solicits original papers’
-          contributions in all related areas.
+          International Conference on Microelectronics, Communication and Signal
+          Processing (ICMCSP 2024), provides a platform for researchers,
+          academics, scholars, industry experts from India and the world to
+          present and discuss their research findings in various areas of
+          Electronics and Communication Engineering. However, ICMCSP 2024
+          solicits original papers’ contributions in all related areas of
+          Electronics Engineering.
         </p>
 
         <p>
-          The theme of the conference is “Microelectronics Communication and
-          Signal Processing.” However, ICMCSP 2024 solicits original papers’
-          contributions in all related areas. The main but not limited tracks of
-          the conference are focused on Microelectronic Circuits and Systems,
-          Communication Systems & Networks, Signal Processing and Applications,
-          and VLSI Technology and Embedded Systems. The committee may propose to
-          publish the accepted and selected then after papers, only after the
-          due presentation and evaluation, through the IEEE Xplore.
+          The major tracks of the conference are focused on Microelectronic
+          Circuits and Systems, Communication Systems & Networks, Signal
+          Processing & Applications, and VLSI Technology & Embedded Systems.
+        </p>
+
+        <p>
+          The conference will feature keynote speakers, technical sessions, and
+          workshops covering a wide range of topics related to Microelectronics,
+          VLSI Design, Signal Processing and Communication systems.
         </p>
       </div>
     </div>

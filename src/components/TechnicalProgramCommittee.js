@@ -31,17 +31,13 @@ const TechnicalProgramCommittee = () => {
             <tr>
               <th>Name</th>
               <th>Description</th>
-              <th>Email</th>
             </tr>
           </thead>
           <tbody>
-            {TechnicalData.map(({ id, name, description, email }) => (
+            {TechnicalData.map(({ id, name, description }) => (
               <tr key={id}>
-                <td style={{fontWeight:'bold'}}>{name}</td>
+                <td style={{ fontWeight: "bold" }}>{name}</td>
                 <td>{description}</td>
-                <td>
-                  <a href={`mailto:${email}`}>{email}</a>
-                </td>
               </tr>
             ))}
           </tbody>

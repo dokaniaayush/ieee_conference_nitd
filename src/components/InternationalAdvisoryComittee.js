@@ -31,17 +31,13 @@ const InternationalAdvisoryComittee = () => {
             <tr>
               <th>Name</th>
               <th>Description</th>
-              <th>Email</th>
             </tr>
           </thead>
           <tbody>
-            {InternationalData.map(({ id, name, description, email }) => (
+            {InternationalData.map(({ id, name, description }) => (
               <tr key={id}>
                 <td style={{fontWeight:'bold'}}>{name}</td>
                 <td>{description}</td>
-                <td>
-                  <a href={`mailto:${email}`}>{email}</a>
-                </td>
               </tr>
             ))}
           </tbody>
