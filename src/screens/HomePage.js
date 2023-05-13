@@ -31,6 +31,46 @@ const HomePage = () => {
         }}
       >
         <div>
+          {/* <h3
+            style={{
+              color: "black",
+              marginTop: "20px",
+            }}
+          >
+            Presents
+          </h3> */}
+          <h3
+            style={{
+              color: "rgb(68, 1, 68)",
+              fontWeight: "bold",
+            }}
+          >
+            First International Conference on
+          </h3>
+          <h3
+            style={{
+              color: "rgb(68, 1, 68)",
+              fontWeight: "bold",
+            }}
+          >
+            Microelectronics, Communication and Signal Processing
+          </h3>
+          <h3
+            style={{
+              color: "rgb(68, 1, 68)",
+              fontWeight: "bold",
+            }}
+          >
+            (ICMCSP 2024)
+          </h3>
+          <h3
+            style={{
+              color: "black",
+              marginTop: "10px",
+            }}
+          >
+            August 8-10, 2024
+          </h3>
           <div className="middleBox">
             {/* <img
               src={require("./../assets/img/ieee_logo.png")}
@@ -73,47 +113,8 @@ const HomePage = () => {
               </h2>
             </div>
           </div>
-          <h3
-            style={{
-              color: "black",
-              marginTop: "20px",
-            }}
-          >
-            Presents
-          </h3>
-          <h3
-            style={{
-              color: "rgb(68, 1, 68)",
-              fontWeight: "bold",
-            }}
-          >
-            First International Conference on
-          </h3>
-          <h3
-            style={{
-              color: "rgb(68, 1, 68)",
-              fontWeight: "bold",
-            }}
-          >
-            Microelectronics, Communication and Signal Processing
-          </h3>
-          <h3
-            style={{
-              color: "rgb(68, 1, 68)",
-              fontWeight: "bold",
-            }}
-          >
-            (ICMCSP 2024)
-          </h3>
         </div>
-        <h3
-          style={{
-            color: "black",
-            marginTop: "10px",
-          }}
-        >
-          Aug 9-11, 2024
-        </h3>
+
         <div className="socialIconsBar">
           <ul>
             <li className="socialIcons">

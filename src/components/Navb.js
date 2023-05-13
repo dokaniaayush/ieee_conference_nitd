@@ -135,7 +135,7 @@ function Navb(props) {
             </Nav.Link>
             <Nav.Link href="/fees">Fees</Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>
-            <Nav.Link href="/tracks">Tracks</Nav.Link>
+            <Nav.Link href="/tracks">Major Tracks</Nav.Link>
             <Nav.Link>
               <Link
                 to="footer"

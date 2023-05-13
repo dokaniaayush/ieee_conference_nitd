@@ -4,7 +4,7 @@ import Table from "react-bootstrap/Table";
 const RegistrationandParticipationFee = () => {
   const Fees1 = [
     {
-      Category: "Academician/Researcher( Non IEEE Member",
+      Category: "Academician/Researcher (Non IEEE Member)",
       Fee: "₹ 8000/-",
       Number: "30",
       TotalAmount: "₹ 2,40,000/-",
@@ -42,7 +42,7 @@ const RegistrationandParticipationFee = () => {
   ];
   const Fees2 = [
     {
-      Category1: "Academician/Researcher( Non IEEE Member",
+      Category1: "Academician/Researcher (Non IEEE Member)",
       Fee1: "USD 350",
       Number: "30",
       TotalAmount: "₹ 2,40,000/-",
@@ -89,10 +89,15 @@ const RegistrationandParticipationFee = () => {
         <div
           className="fs-1 fw-bold"
           style={{
-            color: "Black",
+            color: "#273053",
             textAlign: "left",
             margin: "5px",
             paddingLeft: "10px",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            width: "100%",
+            justifyContent: "center",
           }}
         >
           Registration and Participation Fee

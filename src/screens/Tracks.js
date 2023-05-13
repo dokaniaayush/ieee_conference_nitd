@@ -94,16 +94,14 @@ const Tracks = () => {
               <tr>
                 <th>Track Number</th>
                 <th>Nomenclature</th>
-                <th>Supported IEEE Societies</th>
               </tr>
             </thead>
             <tbody>
-              {tracksData.map(
-                ({ id, trackNumber, nomenclature, societies }) => (
-                  <tr key={id}>
-                    <td>{trackNumber}</td>
-                    <td>{nomenclature}</td>
-                    <div
+              {tracksData.map(({ id, trackNumber, nomenclature }) => (
+                <tr key={id}>
+                  <td>{trackNumber}</td>
+                  <td>{nomenclature}</td>
+                  {/* <div
                       style={{
                         display: "flex",
                         flexDirection: "column",
@@ -119,10 +117,9 @@ const Tracks = () => {
                           {item}
                         </td>
                       ))}
-                    </div>
-                  </tr>
-                )
-              )}
+                    </div> */}
+                </tr>
+              ))}
             </tbody>
           </Table>
         </div>
@@ -148,16 +145,15 @@ const Tracks = () => {
               <tr>
                 <th>Track Number</th>
                 <th>Nomenclature</th>
-                <th>Supported IEEE Societies</th>
+                {/* <th>Supported IEEE Societies</th> */}
               </tr>
             </thead>
             <tbody>
-              {subTracksData.map(
-                ({ id, trackNumber, nomenclature, societies }) => (
-                  <tr key={id}>
-                    <td>{trackNumber}</td>
-                    <td>{nomenclature}</td>
-                    <div
+              {subTracksData.map(({ id, trackNumber, nomenclature }) => (
+                <tr key={id}>
+                  <td>{trackNumber}</td>
+                  <td>{nomenclature}</td>
+                  {/* <div
                       style={{
                         display: "flex",
                         flexDirection: "column",
@@ -174,16 +170,16 @@ const Tracks = () => {
                           {item}
                         </td>
                       ))}
-                    </div>
-                  </tr>
-                )
-              )}
+                    </div> */}
+                </tr>
+              ))}
             </tbody>
           </Table>
         </div>
+        <hr style={{ backgroundColor: "white", height: "5px" }} />
       </div>
+
       <ScrollTop />
-      <hr style={{ backgroundColor: "white", height: "5px" }} />
 
       <Footer />
     </>
