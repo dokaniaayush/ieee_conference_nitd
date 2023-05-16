@@ -75,6 +75,21 @@ function Navb(props) {
             </Nav.Link>
             <Nav.Link>
               <Link
+                to="impDates"
+                spy={true}
+                smooth={true}
+                offset={-55}
+                duration={500}
+                style={{
+                  textDecoration: "none",
+                  fontFamily: "Libre Franklin",
+                }}
+              >
+                Important Dates
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
                 to="sponsors"
                 spy={true}
                 smooth={true}
@@ -88,6 +103,7 @@ function Navb(props) {
                 Sponsors
               </Link>
             </Nav.Link>
+            <Nav.Link href="/committee">Committee</Nav.Link>
             <Nav.Link>
               <Link
                 to="speakers"
@@ -101,21 +117,6 @@ function Navb(props) {
                 }}
               >
                 Speakers
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link
-                to="impDates"
-                spy={true}
-                smooth={true}
-                offset={-55}
-                duration={500}
-                style={{
-                  textDecoration: "none",
-                  fontFamily: "Libre Franklin",
-                }}
-              >
-                Important Dates
               </Link>
             </Nav.Link>
             <Nav.Link>
@@ -134,7 +135,6 @@ function Navb(props) {
               </Link>
             </Nav.Link>
             <Nav.Link href="/fees">Fees</Nav.Link>
-            <Nav.Link href="/committee">Committee</Nav.Link>
             <Nav.Link href="/tracks">Major Tracks</Nav.Link>
             <Nav.Link>
               <Link
@@ -217,7 +217,7 @@ function Navb(props) {
                 backgroundColor: "#273053",
               }}
             >
-              Register
+              Registration
             </Link>
           </Nav.Link>
           {/* <Nav>
