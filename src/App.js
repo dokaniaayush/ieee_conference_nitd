@@ -6,6 +6,7 @@ import HomePage from "./screens/HomePage";
 import Committee from "./screens/Committee";
 import Fees from "./screens/Fees";
 import Tracks from "./screens/Tracks";
+import Registration from "./screens/Registration";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/committee" Component={Committee} />
           <Route path="/fees" Component={Fees} />
           <Route path="/tracks" Component={Tracks} />
+          <Route path="/registration" Component={Registration}/>
         </Routes>
       </BrowserRouter>
     </div>
