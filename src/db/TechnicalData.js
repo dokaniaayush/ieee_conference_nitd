@@ -171,7 +171,7 @@ const TechnicalData = [
     id: 29,
     name: "Mr. Preet Yadav",
     description:
-      "R & D SOC Technical Program Manager, Automotive Processing, NXP Semiconductors, Noida, India",
+      "NXP Semiconductors, Noida, India",
     email: "preet.yadav@nxp.com",
   },
   {
