@@ -2,6 +2,9 @@ import React from "react";
 import Navb from "../components/Navb";
 import Footer from "./Footer";
 import ScrollTop from "../components/ScrollTop";
+import SponsorshipCharges from "../components/SponsorshipCharges";
+import RegistrationandParticipationFee from "../components/RegistrationandParticipationFee";
+import { Button } from "react-bootstrap";
 
 const Registration = () => {
     return(
@@ -29,7 +32,7 @@ const Registration = () => {
                         }}
                     >
                         <p>
-                            At least one of the authors of every accepted paper must register for the conference 
+                            Atleast one of the authors of every accepted paper must register for the conference 
                             (as Full Authors Registration) with registration fee as per the applicable category and 
                             present the paper in order for it to be included in the conference proceedings. If more 
                             than one author of an accepted paper wish to attend the conference, all such authors need 
@@ -37,8 +40,18 @@ const Registration = () => {
                         </p>
                 </div>
             </div>
-            
-            {/* <hr style={{backgroundColor:"white", height:"5px"}}/> */}
+
+            {/* <SponsorshipCharges /> */}
+            <RegistrationandParticipationFee />
+            <Button
+                style={{
+                    width:"auto",
+                    alignSelf:"center",
+                    margin:"5px"
+                }}
+            >
+                Registor here</Button>
+            {/* <hr style={{backgroundColor:"white", height:"5px", margin:"0px"}}/> */}
             <Footer/>
             <ScrollTop/>
         </>

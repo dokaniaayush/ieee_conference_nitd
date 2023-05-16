@@ -135,7 +135,7 @@ function Navb(props) {
                 Location
               </Link>
             </Nav.Link>
-            <Nav.Link href="/fees">Fees</Nav.Link>
+            {/* <Nav.Link href="/fees">Fees</Nav.Link> */}
             <Nav.Link href="/tracks">Major Tracks</Nav.Link>
             <Nav.Link>
               <Link
@@ -199,7 +199,7 @@ function Navb(props) {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          <Nav.Link>
+          {/* <Nav.Link>
             <Link
               spy={true}
               smooth={true}
@@ -220,7 +220,7 @@ function Navb(props) {
             >
               Registration
             </Link>
-          </Nav.Link>
+          </Nav.Link> */}
           {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
