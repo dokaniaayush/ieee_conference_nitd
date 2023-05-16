@@ -70,8 +70,8 @@ const RegistrationandParticipationFee = () => {
       Fee1: "USD 100",
     },
     {
-      Category: "Delegates (Non-Authors/Additional Authors) (Non IEEE Members)",
-      Fee: "USD 150",
+      Category1: "Delegates (Non-Authors/Additional Authors) (Non IEEE Members)",
+      Fee1: "USD 150",
     },
   ];
   return (

@@ -4,10 +4,12 @@ import RegistrationandParticipationFee from "../components/RegistrationandPartic
 import Navb from "../components/Navb";
 import Footer from "./Footer";
 import ScrollTop from "../components/ScrollTop";
+import NavbOther from "../components/NavbOther";
+
 const Fees = () => {
   return (
     <>
-      <Navb show={false} />
+      <NavbOther />
       <div
         style={{
           backgroundColor: "#273053",
@@ -15,9 +17,9 @@ const Fees = () => {
       >
         {/* <SponsorshipCharges /> */}
         <RegistrationandParticipationFee />
-        <hr style={{backgroundColor:"white", height:"5px"}}/>
-        <Footer/>
-        <ScrollTop/>
+        <hr style={{ backgroundColor: "white", height: "5px" }} />
+        <Footer />
+        <ScrollTop />
       </div>
     </>
   );

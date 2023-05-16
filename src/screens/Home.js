@@ -63,6 +63,7 @@ const Home = () => {
       <ImportantDates />
       <Location />
       {/* <Contact /> */}
+      <hr style={{ backgroundColor: "white", height: "5px", margin:"0px" }} />
       <Footer />
       <ScrollTop/>
     </div>

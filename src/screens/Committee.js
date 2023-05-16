@@ -6,12 +6,13 @@ import InternationalAdvisoryComittee from "../components/InternationalAdvisoryCo
 import NationalAdvisoryCommittee from "../components/NationalAdvisoryCommittee";
 import Navb from "../components/Navb";
 import ScrollTop from "../components/ScrollTop";
+import NavbOther from "../components/NavbOther";
 import Footer from "./Footer";
 
 const Committee = () => {
   return (
     <>
-      <Navb show={false} />
+      <NavbOther />
       <div
         id="committee"
         // className="container-fluid"
@@ -29,6 +30,7 @@ const Committee = () => {
         <TechnicalProgramCommittee />
         <InternationalAdvisoryComittee />
         <NationalAdvisoryCommittee />
+        <hr style={{ backgroundColor: "white", height: "5px", margin:"0px" }} />
         <ScrollTop />
         <Footer />
       </div>

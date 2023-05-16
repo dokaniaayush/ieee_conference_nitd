@@ -3,6 +3,7 @@ import { Nav, Table } from "react-bootstrap";
 import Navb from "../components/Navb";
 import ScrollTop from "../components/ScrollTop";
 import Footer from "./Footer";
+import NavbOther from "../components/NavbOther";
 
 const Tracks = () => {
   const tracksData = [
@@ -66,7 +67,7 @@ const Tracks = () => {
 
   return (
     <>
-      <Navb />
+      <NavbOther />
       <div
         style={{
           backgroundColor: "#273053",
@@ -82,8 +83,8 @@ const Tracks = () => {
           <div
             className="fs-1 fw-bold"
             style={{
-              color: "Black",
-              textAlign: "left",
+              color: "#273053",
+              textAlign: "center",
               margin: "5px",
               paddingLeft: "10px",
             }}
@@ -93,17 +94,18 @@ const Tracks = () => {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th style={{width:"20%"}}>Track Number</th>
-                <th style={{width:"30%"}}>Nomenclature</th>
-                <th style={{width:"50%"}}>Supported IEEE Societies</th>
+                <th style={{ width: "20%" }}>Track Number</th>
+                <th style={{ width: "30%" }}>Nomenclature</th>
+                <th style={{ width: "50%" }}>Supported IEEE Societies</th>
               </tr>
             </thead>
             <tbody>
-              {tracksData.map(({ id, trackNumber, nomenclature, societies }) => (
-                <tr key={id}>
-                  <td>{trackNumber}</td>
-                  <td>{nomenclature}</td>
-                  <div
+              {tracksData.map(
+                ({ id, trackNumber, nomenclature, societies }) => (
+                  <tr key={id}>
+                    <td>{trackNumber}</td>
+                    <td>{nomenclature}</td>
+                    <div
                       style={{
                         display: "flex",
                         flexDirection: "column",
@@ -120,8 +122,9 @@ const Tracks = () => {
                         </td>
                       ))}
                     </div>
-                </tr>
-              ))}
+                  </tr>
+                )
+              )}
             </tbody>
           </Table>
         </div>
@@ -134,8 +137,8 @@ const Tracks = () => {
           <div
             className="fs-1 fw-bold"
             style={{
-              color: "Black",
-              textAlign: "left",
+              color: "#273053",
+              textAlign: "center",
               margin: "5px",
               paddingLeft: "10px",
             }}
@@ -145,17 +148,18 @@ const Tracks = () => {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th style={{width:"20%"}}>Track Number</th>
-                <th style={{width:"30%"}}>Nomenclature</th>
-                <th style={{width:"50%"}}>Supported IEEE Societies</th>
+                <th style={{ width: "20%" }}>Track Number</th>
+                <th style={{ width: "30%" }}>Nomenclature</th>
+                <th style={{ width: "50%" }}>Supported IEEE Societies</th>
               </tr>
             </thead>
             <tbody>
-              {subTracksData.map(({ id, trackNumber, nomenclature, societies }) => (
-                <tr key={id}>
-                  <td>{trackNumber}</td>
-                  <td>{nomenclature}</td>
-                  <div
+              {subTracksData.map(
+                ({ id, trackNumber, nomenclature, societies }) => (
+                  <tr key={id}>
+                    <td>{trackNumber}</td>
+                    <td>{nomenclature}</td>
+                    <div
                       style={{
                         display: "flex",
                         flexDirection: "column",
@@ -172,8 +176,9 @@ const Tracks = () => {
                         </td>
                       ))}
                     </div>
-                </tr>
-              ))}
+                  </tr>
+                )
+              )}
             </tbody>
           </Table>
         </div>

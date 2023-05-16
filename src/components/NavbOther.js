@@ -10,7 +10,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navb.css";
 
-function Navb(props) {
+function NavbOther(props) {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -59,85 +59,9 @@ function Navb(props) {
               textAlign: "center",
             }}
           >
-            <Nav.Link>
-              <Link
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-55}
-                duration={500}
-                style={{
-                  textDecoration: "none",
-                  fontFamily: "Libre Franklin",
-                }}
-              >
-                About
-              </Link>
-            </Nav.Link>
-
-            <Nav.Link>
-              <Link
-                to="impDates"
-                spy={true}
-                smooth={true}
-                offset={-55}
-                duration={500}
-                style={{
-                  textDecoration: "none",
-                  fontFamily: "Libre Franklin",
-                }}
-              >
-                Important Dates
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link
-                to="sponsors"
-                spy={true}
-                smooth={true}
-                offset={-55}
-                duration={500}
-                style={{
-                  textDecoration: "none",
-                  fontFamily: "Libre Franklin",
-                }}
-              >
-                Sponsors
-              </Link>
-            </Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>
             <Nav.Link href="/registration">Registration</Nav.Link>
-            <Nav.Link>
-              <Link
-                to="speakers"
-                spy={true}
-                smooth={true}
-                offset={-55}
-                duration={500}
-                style={{
-                  textDecoration: "none",
-                  fontFamily: "Libre Franklin",
-                }}
-              >
-                Speakers
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link
-                to="location"
-                spy={true}
-                smooth={true}
-                offset={-55}
-                duration={500}
-                style={{
-                  textDecoration: "none",
-                  fontFamily: "Libre Franklin",
-                }}
-              >
-                Location
-              </Link>
-            </Nav.Link>
-            {/* <Nav.Link href="/fees">Fees</Nav.Link> */}
             <Nav.Link href="/tracks">Major Tracks</Nav.Link>
             <Nav.Link>
               <Link
@@ -236,4 +160,4 @@ function Navb(props) {
   );
 }
 
-export default Navb;
+export default NavbOther;

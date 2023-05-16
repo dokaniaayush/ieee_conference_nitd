@@ -6,7 +6,7 @@ const Sponsor = () => {
       <div
         id="sponsor_text"
         className="fs-3 fw-bold"
-        style={{ marginBottom: "50px", color: "#13699b" }}
+        style={{ marginBottom: "50px", color: "#273053" }}
       >
         Sponsors
       </div>
@@ -16,12 +16,12 @@ const Sponsor = () => {
           style={{
             height: "100px",
             width: "100px",
-            borderRadius:"100%",
-            marginBottom:"20px"
+            borderRadius: "100%",
+            marginBottom: "20px",
           }}
           alt="logo"
         />
-        <h4>To be Continue...</h4>
+        <h4>To be Updated soon...</h4>
       </div>
     </div>
   );
