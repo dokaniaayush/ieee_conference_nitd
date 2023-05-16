@@ -432,7 +432,7 @@ const Footer = () => {
             marginBottom: "0px",
           }}
         >
-          SITE DEVELOPED BY{" "}
+          Site developed by{" "}
           <a
             href="https://www.linkedin.com/in/ayush-dokania-2b27131b9/"
             style={{
@@ -440,15 +440,15 @@ const Footer = () => {
             }}
           >
             AYUSH Kr. DOKANIA,
-          </a>{" "}
+          </a>,{" "}
           <a
             href="https://www.linkedin.com/in/manan-jain-65aa561b7/"
             style={{
               textDecorationLine: "none",
             }}
           >
-            MANAN JAIN,
-          </a>{" "}
+            MANAN JAIN
+          </a>,{" "}
           <a
             href="https://www.linkedin.com/in/priyanshu-agrawal-5a00651b1/"
             style={{
@@ -457,6 +457,7 @@ const Footer = () => {
           >
             PRIYANSHU AGRAWAL
           </a>
+          ,{" "}Students of NIT Delhi, of ECE Branch
         </p>
       </div>
     </div>

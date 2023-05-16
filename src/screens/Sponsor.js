@@ -12,17 +12,16 @@ const Sponsor = () => {
       </div>
       <div id="sponsor_list">
         <img
-          style={{ width: "100px", height: "100px", margin: "15px" }}
-          src="https://cdn.onlinewebfonts.com/svg/img_44641.png"
+          src={require("./../assets/img/nitd_logo.jpg")}
+          style={{
+            height: "100px",
+            width: "100px",
+            borderRadius:"100%",
+            marginBottom:"20px"
+          }}
+          alt="logo"
         />
-        <img
-          style={{ width: "100px", height: "100px", margin: "15px" }}
-          src="https://cdn.onlinewebfonts.com/svg/img_44641.png"
-        />
-        <img
-          style={{ width: "100px", height: "100px", margin: "15px" }}
-          src="https://cdn.onlinewebfonts.com/svg/img_44641.png"
-        />
+        <h4>To be Continue...</h4>
       </div>
     </div>
   );
