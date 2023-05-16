@@ -2,43 +2,37 @@ const NationalData = [
   {
     id: 1,
     name: "Prof. S. Ananthakrishnan",
-    description:
-      "Department of Electronic Science, Pune University. Ex Vice President, International Union for Radio Science (URSI) and Scientist -NCRA-TIFR, Pune",
+    description: "Pune University, Pune",
     email: "subra.anan@gmail.com",
   },
   {
     id: 2,
     name: "Prof. Ranjan Gangopadhyay",
-    description:
-      "Distinguished Professor LNMIIT Rajasthan, Professor (retd.) IIT Khargapur",
+    description: "LNM Institute of Information Technology, Rajasthan",
     email: "ranjan@lnmiit.ac.in",
   },
   {
     id: 3,
     name: "Prof. Vikram Kumar",
-    description:
-      "Dr. Raja Ramanna Distinguished DRDO Fellow Solid State Physics Laboratory Honorary Professor, CARE, IITD Previous Director of SSPL and CSIR-NPL, India",
+    description: "Solid State Physics Laboratory, CARE, Indian Institute of Technology Delhi",
     email: "vkmr47@gmail.com",
   },
   {
     id: 4,
     name: "Prof. Ramgopal Rao",
-    description:
-      "Vice Chancellor, BITS Pilani Ex Director, IIT Delhi Pillay Chair Professor, Department of Electrical Engineering, Indian Institute of Technology (IIT) Delhi.",
+    description: "Birla Institute of Technology and Science, Pilani, Indian Institute of Technology Delhi",
     email: "rrao@iitd.ac.in",
   },
   {
-    id: 4,
+    id: 5,
     name: "Prof. Neena Gupta",
-    description:
-      "Professor, Department of Electronics and Communication Engineering, PEC Chandigarh",
+    description: "Punjab Engineering College, Chandigarh",
     email: "",
   },
   {
-    id: 4,
+    id: 6,
     name: "Dr. Jyoti Kedia",
-    description:
-      "Assistant Professor, Department of Electronics and Communication Engineering, PEC Chandigarh.",
+    description: "Punjab Engineering College, Chandigarh",
     email: "",
   },
 ];

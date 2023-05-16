@@ -70,6 +70,7 @@ const Tracks = () => {
       <div
         style={{
           backgroundColor: "#273053",
+          fontFamily: "Archivo",
         }}
       >
         <div

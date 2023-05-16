@@ -6,7 +6,7 @@ import InternationalAdvisoryComittee from "../components/InternationalAdvisoryCo
 import NationalAdvisoryCommittee from "../components/NationalAdvisoryCommittee";
 import Navb from "../components/Navb";
 import ScrollTop from "../components/ScrollTop";
-import Footer from './Footer'
+import Footer from "./Footer";
 
 const Committee = () => {
   return (
@@ -21,6 +21,7 @@ const Committee = () => {
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
+          fontFamily: "Archivo",
         }}
       >
         {/* <CommitteeNavbar /> */}
@@ -28,8 +29,8 @@ const Committee = () => {
         <TechnicalProgramCommittee />
         <InternationalAdvisoryComittee />
         <NationalAdvisoryCommittee />
-        <ScrollTop/>
-        <Footer/>
+        <ScrollTop />
+        <Footer />
       </div>
     </>
   );
