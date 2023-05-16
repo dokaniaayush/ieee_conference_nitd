@@ -10,7 +10,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navb.css";
 
-function Navb(props) {
+function NavbOther(props) {
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -59,7 +59,7 @@ function Navb(props) {
               textAlign: "center",
             }}
           >
-            <Nav.Link>
+            {/* <Nav.Link>
               <Link
                 to="about"
                 spy={true}
@@ -105,7 +105,8 @@ function Navb(props) {
                 Sponsors
               </Link>
             </Nav.Link>
-            <Nav.Link href="/committee">Committee</Nav.Link>
+      
+            <Nav.Link href="/registration">Registration</Nav.Link>
             <Nav.Link>
               <Link
                 to="speakers"
@@ -135,7 +136,8 @@ function Navb(props) {
               >
                 Location
               </Link>
-            </Nav.Link>
+            </Nav.Link> */}
+            <Nav.Link href="/committee">Committee</Nav.Link>
             <Nav.Link href="/fees">Fees</Nav.Link>
             <Nav.Link href="/tracks">Major Tracks</Nav.Link>
             <Nav.Link>
@@ -200,7 +202,7 @@ function Navb(props) {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
-          <Nav.Link href="/tracks">
+          <Nav.Link>
             <Link
               spy={true}
               smooth={true}
@@ -235,4 +237,4 @@ function Navb(props) {
   );
 }
 
-export default Navb;
+export default NavbOther;

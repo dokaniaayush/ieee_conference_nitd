@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+.active{
+    /* background-color: #13699b; */
+    background-color: black;
+    transition: 3s;
+    margin-top: 0;
+}
+.navb{
+   background: transparent;
+   margin-top: -58px;
+   /* transform: translateY(60px); */
+   /* background-color: #080a0a; */
+}
+.navbOther{
+   background-color: black;
+}
+@media screen and (min-width: 992px) {
+   .collapsingIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   }
+}

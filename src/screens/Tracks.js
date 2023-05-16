@@ -3,6 +3,7 @@ import { Nav, Table } from "react-bootstrap";
 import Navb from "../components/Navb";
 import ScrollTop from "../components/ScrollTop";
 import Footer from "./Footer";
+import NavbOther from "../components/NavbOther";
 
 const Tracks = () => {
   const tracksData = [
@@ -66,7 +67,7 @@ const Tracks = () => {
 
   return (
     <>
-      <Navb />
+      <NavbOther />
       <div
         style={{
           backgroundColor: "#273053",
