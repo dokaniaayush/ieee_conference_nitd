@@ -14,10 +14,24 @@ const TechnicalData = [
     email: "Judy.Rorison@bristol.ac.uk",
   },
   {
-    id: 3,
-    name: "Dr. R. H. Laskar",
+    id: 23,
+    name: "Prof. Sudeb Dasgupta",
     description:
-      "Expert in electronics and communications engineering and a faculty member in the Department of Electronics and Communication Engineering at NIT Silchar.",
+      "Department of Electronics and Communication Engineering, Indian Institute of Technology Roorkee",
+    email: "sudeb.dasgupta@ece.iitr.ac.in",
+  },
+  {
+    id: 28,
+    name: "Prof Neeta Pandey",
+    email: "neetapandey@dce.ac.in",
+    description:
+      "Department of Electronics and Communication Engineering, DTU, Delhi.",
+  },
+  {
+    id: 3,
+    name: "Dr. S. H. Laskar",
+    description:
+      "Expert in electronics and instrumentation engineering and a faculty member in the Department of Electronics and Communication Engineering at NIT Silchar.",
     email: "rhlaskar@ece.nits.ac.in",
   },
   {
@@ -153,13 +167,6 @@ const TechnicalData = [
     email: "Mukesh.kr@iiti.ac.in",
   },
   {
-    id: 23,
-    name: "Prof. Sudeb Dasgupta",
-    description:
-      "Department of Electronics and Communication Engineering, Indian Institute of Technology Roorkee",
-    email: "sudeb.dasgupta@ece.iitr.ac.in",
-  },
-  {
     id: 24,
     name: "Prof. Tarun Kanti Bhattacharyya",
     email: "tkb@ece.iitkgp.ac.in",
@@ -187,13 +194,7 @@ const TechnicalData = [
     description:
       "Department of Electronics and Communication Engineering, Dr B R Ambedkar National Institute of Technology, Jalandhar.",
   },
-  {
-    id: 28,
-    name: "Prof Neeta Pandey",
-    email: "neetapandey@dce.ac.in",
-    description:
-      "Department of Electronics and Communication Engineering, DTU, Delhi.",
-  },
+  
   {
     id: 29,
     name: "Mr. Preet Yadav",

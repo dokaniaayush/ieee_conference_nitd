@@ -19,6 +19,12 @@ const MainData = [
     id: 4,
     position: "Organizing Secretary",
     description:
+      "Dr. D. Vaithiyanathan, Assistant Professor, Electronics and Communication Engineering, NIT Delhi \n Dr. Sandeep Kumar, Assistant Professor, Electronics and Communication Engineering, NIT Delhi",
+  },
+  {
+    id: 8,
+    position: "Conveners",
+    description:
       "Dr. Rikmantra Basu, Associate Professor, Electronics and Communication Engineering, NIT Delhi \n Dr. Manisha Bharti, Associate Professor, Electronics and Communication Engineering, NIT Delhi",
   },
   {
