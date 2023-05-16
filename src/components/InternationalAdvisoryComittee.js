@@ -19,8 +19,8 @@ const InternationalAdvisoryComittee = () => {
         <div
           className="fs-1 fw-bold"
           style={{
-            color: "Black",
-            textAlign: "left",
+            color: "#273053",
+            textAlign: "center",
             margin: "5px",
             paddingLeft: "10px",
           }}

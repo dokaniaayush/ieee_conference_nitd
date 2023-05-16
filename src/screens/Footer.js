@@ -98,7 +98,7 @@ const Footer = () => {
     //     </p>
     //   </div>
     // </div>
-    
+
     <div
       id="footer"
       style={{ backgroundColor: "#273053", width: "100%", height: "100%" }}
@@ -163,7 +163,9 @@ const Footer = () => {
           justifyContent: "center",
         }}
       >
-        <h3 style={{ marginTop: "15px" }}>Contact Information</h3>
+        <h3 style={{ marginTop: "15px", color: "#273053" }}>
+          Contact Information
+        </h3>
         <div
           className="contactCard"
           style={{
@@ -615,25 +617,27 @@ const Footer = () => {
               textDecorationLine: "none",
             }}
           >
-            AYUSH Kr. DOKANIA,
-          </a>,{" "}
+            Ayush Kr. Dokania,
+          </a>
+          ,{" "}
           <a
             href="https://www.linkedin.com/in/manan-jain-65aa561b7/"
             style={{
               textDecorationLine: "none",
             }}
           >
-            MANAN JAIN
-          </a>,{" "}
+            Manan Jain
+          </a>
+          ,{" "}
           <a
             href="https://www.linkedin.com/in/priyanshu-agrawal-5a00651b1/"
             style={{
               textDecorationLine: "none",
             }}
           >
-            PRIYANSHU AGRAWAL
+            Priyanshu Agrawal
           </a>
-          ,{" "}Students of NIT Delhi, of ECE Branch
+          , Students of NIT Delhi, of ECE Branch
         </p>
       </div>
     </div>
