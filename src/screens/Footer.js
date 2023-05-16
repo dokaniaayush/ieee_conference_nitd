@@ -442,7 +442,7 @@ const Footer = () => {
               />
               <p style={{ fontWeight: "bold" }}>Dr. D.Vaithiyanathan</p>
               <p>Organizing Secretary</p>
-              <p>Associate Professor, Department of ECE, NIT Delhi</p>
+              <p>Assistant Professor, Department of ECE, NIT Delhi</p>
             </div>
             <div
               style={{
@@ -518,7 +518,7 @@ const Footer = () => {
               />
               <p style={{ fontWeight: "bold" }}>Dr. Sandeep Kumar</p>
               <p>Organizing Secretary</p>
-              <p>Associate Professor, Department of ECE, NIT Delhi</p>
+              <p>Assistant Professor, Department of ECE, NIT Delhi</p>
             </div>
             <div
               style={{

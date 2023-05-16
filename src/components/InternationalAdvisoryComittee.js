@@ -7,6 +7,7 @@ const InternationalAdvisoryComittee = () => {
     <div
       style={{
         backgroundColor: "#273053",
+        width: "100%",
       }}
     >
       <div
