@@ -98,6 +98,7 @@ const Footer = () => {
     //     </p>
     //   </div>
     // </div>
+    
     <div
       id="footer"
       style={{ backgroundColor: "#273053", width: "100%", height: "100%" }}

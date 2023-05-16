@@ -104,6 +104,7 @@ function Navb(props) {
               </Link>
             </Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>
+            <Nav.Link herf="/registration">Registration</Nav.Link>
             <Nav.Link>
               <Link
                 to="speakers"
