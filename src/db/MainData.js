@@ -13,13 +13,7 @@ const MainData = [
     id: 3,
     position: "Organizing Chair",
     description:
-      "Dr. Manoj Kumar, Professor, Electronics and Communication Engineering, NIT Delhi",
-  },
-  {
-    id: 4,
-    position: "Organizing Secretary",
-    description:
-      "Dr. D. Vaithiyanathan, Assistant Professor, Electronics and Communication Engineering, NIT Delhi \n Dr. Sandeep Kumar, Assistant Professor, Electronics and Communication Engineering, NIT Delhi",
+      "Prof. Manoj Kumar, Professor, Electronics and Communication Engineering, NIT Delhi",
   },
   {
     id: 8,
@@ -27,6 +21,13 @@ const MainData = [
     description:
       "Dr. Rikmantra Basu, Associate Professor, Electronics and Communication Engineering, NIT Delhi \n Dr. Manisha Bharti, Associate Professor, Electronics and Communication Engineering, NIT Delhi",
   },
+  {
+    id: 4,
+    position: "Organizing Secretary",
+    description:
+      "Dr. D. Vaithiyanathan, Assistant Professor, Electronics and Communication Engineering, NIT Delhi \n Dr. Sandeep Kumar, Assistant Professor, Electronics and Communication Engineering, NIT Delhi",
+  },
+  
   {
     id: 5,
     position: "Technical Program Chair",

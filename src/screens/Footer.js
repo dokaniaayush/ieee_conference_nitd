@@ -267,7 +267,7 @@ const Footer = () => {
                 style={{ marginBottom: "10px", width: "25px", height: "25px" }}
               />
               <p style={{ fontWeight: "bold" }}>Dr. Manisha Bharti</p>
-              <p>Organizing Secretary</p>
+              <p>Convener</p>
               <p>Associate Professor, Department of ECE, NIT Delhi</p>
             </div>
             <div
@@ -342,7 +342,7 @@ const Footer = () => {
                 style={{ marginBottom: "10px", width: "25px", height: "25px" }}
               />
               <p style={{ fontWeight: "bold" }}>Dr. Rikmantra Basu</p>
-              <p>Organizing Secretary</p>
+              <p>Convener</p>
               <p>Associate Professor, Department of ECE, NIT Delhi</p>
             </div>
             <div
