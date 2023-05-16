@@ -36,7 +36,7 @@ const InternationalAdvisoryComittee = () => {
           <tbody>
             {InternationalData.map(({ id, name, description }) => (
               <tr key={id}>
-                <td style={{fontWeight:'bold'}}>{name}</td>
+                <td style={{ fontWeight: "bold" }}>{name}</td>
                 <td>{description}</td>
               </tr>
             ))}
