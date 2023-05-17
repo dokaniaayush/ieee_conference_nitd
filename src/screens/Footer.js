@@ -469,11 +469,11 @@ const Footer = () => {
                   cursor: "pointer",
                 }}
                 onClick={() =>
-                  (window.location = "mailto:sandeep@nitdelhi.ac.in")
+                  (window.location = "mailto:dvaithiyanathan@nitdelhi.ac.in")
                 }
               >
                 {/* rikmantrabasu@nitelhi.ac.in */}
-                sandeep@nitdelhi.ac.in
+                dvaithiyanathan@nitdelhi.ac.in
               </p>
             </div>
             <div

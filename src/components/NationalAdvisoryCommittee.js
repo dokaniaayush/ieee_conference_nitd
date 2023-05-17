@@ -31,14 +31,14 @@ const NationalAdvisoryComittee = () => {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Description</th>
+              <th>Organization</th>
             </tr>
           </thead>
           <tbody>
             {NationalData.map(({ id, name, description }) => (
               <tr key={id}>
-                <td style={{ fontWeight: "bold" }}>{name}</td>
-                <td>{description}</td>
+                <td style={{ fontWeight: "bold",textAlign:"left", paddingLeft:"50px" }}>{name}</td>
+                <td style={{textAlign:"left", paddingLeft:"15px"}}>{description}</td>
               </tr>
             ))}
           </tbody>

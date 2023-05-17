@@ -8,6 +8,8 @@ const TechnicalProgramCommittee = () => {
       style={{
         backgroundColor: "#273053",
         width: "100%",
+        justifyContent:"left",
+        
       }}
     >
       <div
@@ -31,14 +33,14 @@ const TechnicalProgramCommittee = () => {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Description</th>
+              <th>Organization</th>
             </tr>
           </thead>
           <tbody>
             {TechnicalData.map(({ id, name, description }) => (
               <tr key={id}>
-                <td style={{ fontWeight: "bold" }}>{name}</td>
-                <td>{description}</td>
+                <td style={{ fontWeight: "bold"}}>{name}</td>
+                <td style={{textAlign:"left", paddingLeft:"15px"}}>{description}</td>
               </tr>
             ))}
           </tbody>

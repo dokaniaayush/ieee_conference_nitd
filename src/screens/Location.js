@@ -37,6 +37,7 @@ const Location = () => {
             padding: "10px",
           }}
         >
+        <h5 style={{color:"#273053"}}>Conference Venue</h5>
           <p
             style={{
               fontWeight: "bold",

@@ -23,7 +23,7 @@ const AboutConference = () => {
           marginTop: "20px",
         }}
       >
-        <h3 style={{color: "#273053"}}>About The Conference</h3>
+        <h3 style={{color: "#273053"}}>About the Conference</h3>
         <br/>
         <div style={{textAlign: "justify",}}>
           <p>

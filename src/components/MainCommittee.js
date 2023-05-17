@@ -28,12 +28,12 @@ const MainCommittee = () => {
           Committee Members
         </div>
         <Table striped bordered hover>
-          <thead>
+          {/* <thead>
             <tr>
               <th>Position</th>
               <th>Details</th>
             </tr>
-          </thead>
+          </thead> */}
           <tbody>
             {MainData.map(({ id, position, description }) => (
               <tr key={id}>

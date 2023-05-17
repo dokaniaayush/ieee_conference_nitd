@@ -19,6 +19,7 @@ const Registration = () => {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
+          backgroundColor: "#273053",
         }}
       >
         <div
@@ -30,6 +31,8 @@ const Registration = () => {
             justifyContent: "center",
             marginTop: "20px",
             textAlign: "justify",
+            fontSize:"20px",
+            color:"white"
           }}
         >
           <p>

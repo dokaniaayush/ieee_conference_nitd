@@ -15,7 +15,7 @@ const HomePage = () => {
         display: "flex",
         flexDirection: "column",
         height: "100vh",
-        backgroundImage: `url(${require("./../assets/img/sample.png")})`,
+        backgroundImage: `url(${require("./../assets/img/admin1.JPG")})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
@@ -82,8 +82,8 @@ const HomePage = () => {
             <img
               src={require("./../assets/img/nitd_logo.jpg")}
               style={{
-                height: "100px",
-                width: "100px",
+                height: "115px",
+                width: "115px",
               }}
               alt="logo"
             />

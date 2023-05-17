@@ -96,16 +96,16 @@ const Tracks = () => {
               <tr>
                 <th style={{ width: "20%" }}>Track Number</th>
                 <th style={{ width: "30%" }}>Nomenclature</th>
-                <th style={{ width: "50%" }}>Supported IEEE Societies</th>
+                {/* <th style={{ width: "50%" }}>Supported IEEE Societies</th> */}
               </tr>
             </thead>
             <tbody>
               {tracksData.map(
-                ({ id, trackNumber, nomenclature, societies }) => (
+                ({ id, trackNumber, nomenclature }) => (
                   <tr key={id}>
                     <td>{trackNumber}</td>
                     <td>{nomenclature}</td>
-                    <div
+                    {/* <div
                       style={{
                         display: "flex",
                         flexDirection: "column",
@@ -121,7 +121,7 @@ const Tracks = () => {
                           {item}
                         </td>
                       ))}
-                    </div>
+                    </div> */}
                   </tr>
                 )
               )}
@@ -143,14 +143,14 @@ const Tracks = () => {
               paddingLeft: "10px",
             }}
           >
-            Sub Tracks
+            Sub-Tracks
           </div>
           <Table striped bordered hover>
             <thead>
               <tr>
                 <th style={{ width: "20%" }}>Track Number</th>
-                <th style={{ width: "30%" }}>Nomenclature</th>
-                <th style={{ width: "50%" }}>Supported IEEE Societies</th>
+                <th style={{ width: "30%" }}>Tracks</th>
+                <th style={{ width: "50%" }}>Sub-Tracks</th>
               </tr>
             </thead>
             <tbody>
