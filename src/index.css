@@ -14,7 +14,7 @@ code {
 .cards{
   margin: 20px 20px;
   width: 330px;
-  height: auto;
+  height: 500px;
 }
 
 .card{
@@ -40,6 +40,8 @@ code {
 }
 
 .card__info{
+  width: 100%;
+  height: 200px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   padding: 16px 24px 24px 24px;

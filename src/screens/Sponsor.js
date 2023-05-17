@@ -21,6 +21,8 @@ const Sponsor = () => {
           }}
           alt="logo"
         />
+        <h5>Nit Delhi</h5>
+        <br/>
         <h4>To be Updated soon...</h4>
       </div>
     </div>

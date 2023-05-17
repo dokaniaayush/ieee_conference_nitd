@@ -60,6 +60,7 @@ const Home = () => {
       <AboutInstitute />
       <Sponsor />
       <Speakers />
+      <hr style={{ backgroundColor: "white",  margin:"0px" }} />
       <ImportantDates />
       <Location />
       {/* <Contact /> */}
