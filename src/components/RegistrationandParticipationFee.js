@@ -121,7 +121,7 @@ const RegistrationandParticipationFee = () => {
           <tbody>
             {Fees1.map(({ Category, Fee }) => (
               <tr key={Category}>
-                <td>{Category}</td>
+                <td style={{paddingLeft:"20%", textAlign:"left"}}>{Category}</td>
                 <td>{Fee}</td>
               </tr>
             ))}
@@ -145,7 +145,7 @@ const RegistrationandParticipationFee = () => {
           <tbody>
             {Fees2.map(({ Category1, Fee1 }) => (
               <tr key={Category1}>
-                <td>{Category1}</td>
+                <td style={{paddingLeft:"20%", textAlign:"left"}}>{Category1}</td>
                 <td>{Fee1}</td>
               </tr>
             ))}

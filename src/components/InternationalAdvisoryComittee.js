@@ -31,14 +31,14 @@ const InternationalAdvisoryComittee = () => {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Organization</th>
+              <th style={{textAlign:"left", paddingLeft:"50px", width:"70%"}}>Organization</th>
             </tr>
           </thead>
           <tbody>
             {InternationalData.map(({ id, name, description }) => (
               <tr key={id}>
-                <td style={{ fontWeight: "bold" }}>{name}</td>
-                <td style={{textAlign:"left", paddingLeft:"15px"}}>{description}</td>
+                <td style={{ fontWeight: "bold", textAlign:"left", paddingLeft:"50px", width:"30%" }}>{name}</td>
+                <td style={{textAlign:"left", paddingLeft:"15px", width:"70%"}}>{description}</td>
               </tr>
             ))}
           </tbody>

@@ -94,8 +94,8 @@ const Tracks = () => {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th style={{ width: "20%" }}>Track Number</th>
-                <th style={{ width: "30%" }}>Nomenclature</th>
+                <th >Track Number</th>
+                <th >Nomenclature</th>
                 {/* <th style={{ width: "50%" }}>Supported IEEE Societies</th> */}
               </tr>
             </thead>
@@ -104,7 +104,7 @@ const Tracks = () => {
                 ({ id, trackNumber, nomenclature }) => (
                   <tr key={id}>
                     <td>{trackNumber}</td>
-                    <td>{nomenclature}</td>
+                    <td style={{textAlign:"left", paddingLeft:"25%"}}>{nomenclature}</td>
                     {/* <div
                       style={{
                         display: "flex",
@@ -158,7 +158,7 @@ const Tracks = () => {
                 ({ id, trackNumber, nomenclature, societies }) => (
                   <tr key={id}>
                     <td>{trackNumber}</td>
-                    <td>{nomenclature}</td>
+                    <td style={{textAlign:"left"}}>{nomenclature}</td>
                     <div
                       style={{
                         display: "flex",

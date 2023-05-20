@@ -37,12 +37,14 @@ const MainCommittee = () => {
           <tbody>
             {MainData.map(({ id, position, description }) => (
               <tr key={id}>
-                <td style={{ fontWeight: "bold" }}>{position}</td>
+                <td style={{ fontWeight: "bold", textAlign:"left", paddingLeft:"50px", width:"30%" }}>{position}</td>
                 <div
                   style={{
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "flex-start",
+                    paddingLeft:"15px", 
+                    width:"70%"
                   }}
                 >
                   {description.split("\n").map((item, i) => (
