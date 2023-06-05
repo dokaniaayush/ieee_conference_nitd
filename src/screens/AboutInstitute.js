@@ -28,18 +28,31 @@ const AboutInstitute = () => {
         <br />
         <div style={{ textAlign: "justify", }}>
           <p>
-            National Institute of Technology Delhi (NITD) is one of the ten new NIT (s) established in the
-            year 2010 by an act of parliament and has been declared as an Institute of National importance. 
-            NIT Delhi is an autonomous Institute which functions under the aegis of Ministry of Human Resource 
-            Development, Government of India. It aims to provide instructions and research facilities in various 
-            disciplines of Engineering, Science and Technology, Management, Social Sciences and Humanities for 
-            advance learning and dissemination of knowledge. The mission of NIT Delhi is to produce human resource 
+            National Institute of Technology Delhi (NITD) is one of the ten new NIT(s) established in the
+            year 2010 by an act of parliament and has been declared as an Institute of National importance.
+            NIT Delhi is an autonomous Institute which functions under the aegis of Ministry of Human Resource
+            Development, Government of India. It aims to provide instructions and research facilities in various
+            disciplines of Engineering, Science and Technology, Management, Social Sciences and Humanities for
+            advance learning and dissemination of knowledge. The mission of NIT Delhi is to produce human resource
             those who are creative, competitive and innovative with high intellect and ethical values.
           </p>
-          <hr/>
-          <h3 style={{textAlign:"center", color: "#273053" }}>
+        </div>
+      </div>
+      <hr style={{color:"black", width:"100%"}}/>
+      <div
+        style={{
+          width: "60%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          marginTop: "20px",
+        }}
+      >
+        <h3 style={{ textAlign: "center", color: "#273053" }}>
           About the Department
-        </h3><br/>
+        </h3><br />
+        <div style={{ textAlign: "justify", }}>
           <p>
             The Department of ECE was established in 2010, immediately with the
             beginning of the Institute under the aegis of the Ministry of

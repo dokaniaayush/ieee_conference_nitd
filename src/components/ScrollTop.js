@@ -35,6 +35,7 @@ const ScrollTop = () => {
       variant="primary"
       className={`scroll-top-btn ${isVisible ? "show" : "hide"}`}
       onClick={scrollToTop}
+      style={{right:"auto", marginLeft:"1%"}}
     >
       <FontAwesomeIcon icon={faArrowCircleUp} />
     </Button>

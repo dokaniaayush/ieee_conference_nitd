@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
   background-color:aliceblue;
 }
 
@@ -81,4 +80,26 @@
 
 .scroll-top-btn.show {
   opacity: 1;
+}
+
+
+@keyframes move {
+  0% {
+    margin-left: -1100px;
+  }
+  100% {
+    margin-left: 10px;
+  }
+}
+
+.box{
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: right;
+}
+
+.box:hover {
+  animation-play-state: paused;
 }

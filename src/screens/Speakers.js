@@ -24,11 +24,12 @@ const Speakers = () => {
       >
         Our Speakers
       </div>
-      <div
+      <div className="box"
         style={{
           display: "flex",
           flexDirection: "row",
           overflowX: "scroll",
+          marginRight:"1%"
         }}>
         <SpeakerCard
           img={require("./../assets/img/GeetaSikka.jpeg")}
