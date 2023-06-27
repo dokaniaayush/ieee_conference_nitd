@@ -8,6 +8,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div
+      class="ad-wrap"
       id="home"
       style={{
         // position: "absolute",
@@ -15,13 +16,19 @@ const HomePage = () => {
         display: "flex",
         flexDirection: "column",
         height: "100vh",
-        backgroundImage: `url(${require("./../assets/img/admin1.JPG")})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundAttachment: "fixed",
+        // backgroundImage: `url(${require("./../assets/img/admin1.JPG")})`, opacity : 0.6,
+        // backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
+        // backgroundAttachment: "fixed",
+
       }}
     >
-      <div
+      <img
+        class="ad-bg"
+        src={require("./../assets/img/admin1.JPG")}
+        alt=""
+      />
+      <div class="ad-content"
         style={{
           display: "flex",
           flexDirection: "column",
@@ -30,46 +37,39 @@ const HomePage = () => {
           height: "100%",
         }}
       >
-        <div>
-          {/* <h3
+        <div style={{marginTop:"-3.5%"}}>
+          <h1
             style={{
               color: "black",
-              marginTop: "20px",
-            }}
-          >
-            Presents
-          </h3> */}
-          <h3
-            style={{
-              color: "rgb(68, 1, 68)",
               fontWeight: "bold",
             }}
           >
             First International Conference on
-          </h3>
-          <h3
+          </h1>
+          <h1
             style={{
-              color: "rgb(68, 1, 68)",
+              color: "black",
               fontWeight: "bold",
             }}
           >
             Microelectronics, Communication and Signal Processing
-          </h3>
-          <h3
+          </h1>
+          <h1
             style={{
-              color: "rgb(68, 1, 68)",
+              color: "black",
               fontWeight: "bold",
             }}
           >
-            (ICMCSP 2024)
-          </h3>
+          (ICMCSP 2024)
+          </h1>
           <h3
             style={{
               color: "black",
-              marginTop: "10px",
+              marginTop:"30px"
+              // fontWeight: "bold",
             }}
           >
-            August 8-10, 2024
+          August 8-10, 2024
           </h3>
           <div className="middleBox">
             {/* <img

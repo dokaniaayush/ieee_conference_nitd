@@ -103,3 +103,21 @@
 .box:hover {
   animation-play-state: paused;
 }
+
+.ad-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.ad-bg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.ad-content {
+  position: relative;
+}
