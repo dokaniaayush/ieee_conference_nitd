@@ -1,6 +1,5 @@
 {
   "name": "website",
-  "homepage": "https://dokaniaayush.github.io/ieee_conference_nitd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
