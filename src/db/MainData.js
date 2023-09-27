@@ -2,7 +2,7 @@ const MainData = [
   {
     id: 1,
     position: "Honorary Chair",
-    description: "Prof. Yogesh Singh, Delhi University, India",
+    description: "Prof. Yogesh Singh, University of Delhi , India",
   },
   {
     id: 2,
