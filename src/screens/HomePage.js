@@ -69,7 +69,7 @@ const HomePage = () => {
               // fontWeight: "bold",
             }}
           >
-          August 8-10, 2024
+          August 9-11, 2024
           </h3>
           <div className="middleBox">
             {/* <img
