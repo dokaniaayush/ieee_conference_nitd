@@ -8,7 +8,7 @@ const Sponsor = () => {
           className="fs-3 fw-bold"
           style={{ marginBottom: "50px", color: "#273053"}}
         >
-          Sponsors
+          Patrons/Contributors/Supporters
         </div>
         <div>
           <img
