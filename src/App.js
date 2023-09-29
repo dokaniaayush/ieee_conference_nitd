@@ -7,6 +7,7 @@ import Committee from "./screens/Committee";
 import Fees from "./screens/Fees";
 import Tracks from "./screens/Tracks";
 import Registration from "./screens/Registration";
+import SubmitPaper from "./screens/SubmitPaper";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/fees" Component={Fees} />
           <Route path="/tracks" Component={Tracks} />
           <Route path="/registration" Component={Registration}/>
+          <Route path="/submit" Component={SubmitPaper}/>
         </Routes>
       </BrowserRouter>
     </div>

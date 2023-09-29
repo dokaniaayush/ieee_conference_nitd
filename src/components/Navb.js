@@ -106,7 +106,16 @@ function Navb(props) {
               </Link>
             </Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>
-            <Nav.Link href="/registration">Registration</Nav.Link>
+
+            <NavDropdown title="For Authors" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                <Nav.Link style={{color: "black"}} href="/registration">Registration</Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+              <Nav.Link style={{color: "black"}} href="/submit">Submit Paper</Nav.Link>
+              </NavDropdown.Item>
+            </NavDropdown>
+            
             <Nav.Link>
               <Link
                 to="speakers"
