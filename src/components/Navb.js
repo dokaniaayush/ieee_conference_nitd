@@ -23,6 +23,7 @@ function Navb(props) {
 
   window.addEventListener("scroll", changeBackground);
   const [click, setClick] = useState(false);
+  const [show, setShow] = useState(false);
   const closeMenu = () => setClick(false);
   return (
     <Navbar
@@ -107,7 +108,7 @@ function Navb(props) {
             </Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>
 
-            <NavDropdown title="For Authors" id="basic-nav-dropdown">
+            <NavDropdown title="For Authors" id="basic-nav-dropdown" show={show} onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false)}>
               <NavDropdown.Item href="#action/3.1">
                 <Nav.Link style={{color: "black"}} href="/registration">Registration</Nav.Link>
               </NavDropdown.Item>
