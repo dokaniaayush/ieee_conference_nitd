@@ -186,7 +186,6 @@ const Tracks = () => {
       </div>
 
       <ScrollTop />
-
       <Footer />
     </>
   );

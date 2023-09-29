@@ -30,10 +30,10 @@ const Committee = () => {
         <TechnicalProgramCommittee />
         <InternationalAdvisoryComittee />
         <NationalAdvisoryCommittee />
-        <hr style={{ backgroundColor: "white", height: "5px", margin:"0px" }} />
-        <ScrollTop />
-        <Footer />
       </div>
+      <hr style={{ backgroundColor: "white", height: "5px", margin:"0px" }} />
+      <ScrollTop />
+      <Footer />
     </>
   );
 };

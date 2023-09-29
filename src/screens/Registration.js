@@ -55,9 +55,9 @@ const Registration = () => {
         <RegistrationandParticipationFee />
         <Button>Registor here</Button>
         <hr style={{ backgroundColor: "white", height: "5px" }} />
-        <Footer />
-        <ScrollTop />
       </div>
+      <ScrollTop />
+      <Footer />
     </>
   );
 };

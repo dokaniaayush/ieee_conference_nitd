@@ -617,7 +617,7 @@ const Footer = () => {
               textDecorationLine: "none",
             }}
           >
-            Ayush Kr. Dokania,
+            Ayush Kr. Dokania
           </a>
           ,{" "}
           <a
