@@ -1,3 +1,1 @@
-```
-https://icmcsp-nitdelhi.netlify.app/
-```
+[Visit the website](https://icmcsp-nitdelhi.netlify.app/)
