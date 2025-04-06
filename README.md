@@ -1,3 +1,3 @@
 ```
-https://ieeentid.netlify.app/
+https://icmcsp-nitdelhi.netlify.app/
 ```
